@@ -117,7 +117,101 @@
     {
       "id": 5,
       "name":"India",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png"
+      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png",
+      "details":[
+        {
+          "day-date-time":"SUN, 28 AUG, 7:30 PM",
+          "team-group":"Group A(N), Dubai(DSC), August 28, 2022, Asi...",
+          "country1-code":"INDIA",
+          "country1-code-img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png",
+          "counry2":"PAK",
+          "country2-code-img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313129.logo.png"
+        },
+        {
+          "day-date-time":"TUES, 20 SEP, 7:30 PM",
+          "team-group":"1st T201(N), Mohali, September 20, 2022, Aust...",
+          "country1-code":"INDIA",
+          "country1-code-img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png",
+          "counry2":"AUS",
+          "country2-code-img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png"
+        },
+        {
+          "day-date-time":"FRI, 23 SEP, 7:30 PM",
+          "team-group":"2nd T201(N), Nagpur, September 23, 2022, Au...",
+          "country1-code":"INDIA",
+          "country1-code-img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png",
+          "counry2":"AUS",
+          "country2-code-img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png"
+        },
+        {
+          "day-date-time":"SUN, 02 OCT, 7:30 PM",
+          "team-group":"2nd T201(N), Guwahati, October 02, 2022, Sou...",
+          "country1-code":"INDIA",
+          "country1-code-img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png",
+          "counry2":"SA",
+          "country2-code-img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313125.logo.png"
+        },
+        {
+          "day-date-time":"TUES, 04 OCT, 7:30 PM",
+          "team-group":"Group B(N), Dubai(DSC), August 27,2022, Asi...",
+          "country1-code":"INDIA",
+          "country1-code-img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png",
+          "counry2":"SA",
+          "country2-code-img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313125.logo.png"
+        }
+      ],
+      "top-run-scores":[
+        {
+          "name":"Rishabh Pant",
+          "image":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/304200/304221.png",
+          "runs":"636",
+          "innings":"15",
+          "average":"45.42",
+          "code":"lhb"
+        },
+        {
+          "name":"Virat Kohli",
+          "image":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/289000/289002.1.jpg",
+          "runs":"465",
+          "innings":"15",
+          "average":"31.00",
+          "code":"rhb"
+        },
+        {
+          "name":"Cheteshwar Pujara",
+          "image":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/295200/295261.1.jpg",
+          "runs":"455",
+          "innings":"16",
+          "average":"28.43",
+          "code":"rhb"
+        }
+      ],
+      "top-wicket-takers":[
+        {
+          "name":"Jasprit Bumrah",
+          "image":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/302300/302376.jpg",
+          "wicket":"33",
+          "innings":"15",
+          "average":"20.18",
+          "code":"rf"
+        },
+        {
+          "name":"Ravichandran Ashwin",
+          "image":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/302300/302395.jpg",
+          "wicket":"29",
+          "innings":"14",
+          "average":"18.00",
+          "code":"ob"
+        },
+        {
+          "name":"Mohammad Shami",
+          "image":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/304200/304210.png",
+          "wicket":"25",
+          "innings":"13",
+          "average":"26.00",
+          "code":"rf"
+        }
+      ]
     },
     {
       "id": 6,
