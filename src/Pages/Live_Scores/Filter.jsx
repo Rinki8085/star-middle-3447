@@ -1,9 +1,28 @@
-import React from 'react'
+import React from "react";
+import Styles from "./Filter.module.css";
 
 const Filter = () => {
+  const mappingData = [
+    "Int'I",
+    "T20s",
+    "ODI",
+    "Test",
+    "Men",
+    "Women",
+    "Domestic",
+    "FC",
+    "Youth",
+    "List A",
+    "Others",
+  ];
   return (
-    <div>Filter</div>
-  )
-}
+    <div className={Styles.main}>
+      <h5 className={Styles.reset}>Reset</h5>
+      {mappingData.map((el) => (
+        <button className={Styles.btns}>{el}</button>
+      ))}
+    </div>
+  );
+};
 
-export default Filter
+export default Filter;

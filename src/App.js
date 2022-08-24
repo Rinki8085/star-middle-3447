@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import LiveScore from "./Pages/Live_Scores/LiveScore";
 
 function App() {
   return (
     <div className="App">
-      <h2>hello</h2>
+      <LiveScore/>
     </div>
   );
 }
