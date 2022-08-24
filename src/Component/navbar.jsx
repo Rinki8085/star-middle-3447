@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar=()=>{
    return(
-      <div>
+      <div style={{'backgroundColor':"skyblue","height":"45px"}}>
          Navbar
       </div>
    )
