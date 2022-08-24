@@ -18,8 +18,8 @@ const Filter = () => {
   return (
     <div className={Styles.main}>
       <h5 className={Styles.reset}>Reset</h5>
-      {mappingData.map((el) => (
-        <button className={Styles.btns}>{el}</button>
+      {mappingData.map((el,index) => (
+        <button className={Styles.btns} key={index}>{el}</button>
       ))}
     </div>
   );
