@@ -1,11 +1,109 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import Navbar from '../../Component/navbar';
+import {useDispatch, useSelector} from 'react-redux';
+import {Link} from 'react-router-dom';
+import {getInternationalTeamData, getWomenTeamData, getIplTeamData} from '../../Redux/action';
+import styled from 'styled-components';
 
 const Teams=()=>{
+   const internationalTeam = useSelector((state)=>state.internationalTeam);
+   const womenTeam = useSelector((state)=>state.womensTeam);
+   const iplTeam = useSelector((state)=>state.iplTeam);
+   console.log(internationalTeam,womenTeam, iplTeam,22)
+   const dispatch = useDispatch();  
+   useEffect(()=>{
+     dispatch(getWomenTeamData());
+     dispatch(getInternationalTeamData());
+     dispatch(getIplTeamData()); 
+   },[])
+
    return(
       <div>
-         news
+         <Navbar/>
+         <div style={{paddingLeft:"20px",paddingRight:"20px"}}>
+            <div>
+               <div style={{padding:"10px",textAlign:"center"}}>
+                  <img src="https://tpc.googlesyndication.com/simgad/931568015193886157?" alt="image_ads"/>
+               </div>
+            </div>
+            <div>
+                  <TeamWrapper>
+                     <div style={{paddingLeft:"15px"}}>
+                        <h3>POPULAR INTERNATIONAL TEAMS</h3>
+                     </div>
+                     
+                     <InternationTeam>
+                        {internationalTeam.map((item)=>
+                        <Link to={`/Teams/${item.name}`} style={{textDecoration:"none"}} > 
+                           <div style={{borderBottom:"1px solid lightgrey",borderRight:"1px solid lightgrey",padding:'18px',display:"flex",alignItems:"center"}}>
+                              <div>
+                                 <img src={item.img} width='48px' height='48px' alt='afghanistan' />
+                              </div>
+                              <span style={{fontWeight:"700",paddingLeft:"10px",fontSize:"1.1rem",color:"#383838"}}>{item.name}</span>
+                           </div>
+                           </Link>
+                        )}
+                        
+                     </InternationTeam>
+                  </TeamWrapper>
+                  <br/>
+                  <TeamWrapper>
+                     <div style={{paddingLeft:"15px"}}>
+                        <h3>POPULAR WOMEN'S TEAMS</h3>
+                     </div>
+                     <InternationTeam>
+                        {womenTeam.map((item)=>
+                        <Link to={`/Teams/${item.name}`} style={{textDecoration:"none"}} > 
+                           <div style={{borderBottom:"1px solid lightgrey",borderRight:"1px solid lightgrey",padding:'18px',display:"flex",alignItems:"center"}}>
+                              <div>
+                                 <img src={item.img} width='48px' height='48px' alt='afghanistan' />
+                              </div>
+                              <span style={{fontWeight:"700",paddingLeft:"10px",fontSize:"1.1rem",color:"#383838"}}>{item.name}</span>
+                           </div>
+                           </Link>
+                        )}
+                        
+                     </InternationTeam>
+                  </TeamWrapper>
+                  <br/>
+                  <TeamWrapper>
+                     <div style={{paddingLeft:"15px"}}>
+                        <h3>IPL 2022 TEAMS</h3>
+                     </div>
+                     <InternationTeam>
+                        {iplTeam.map((item)=>
+                         <Link to={`/Teams/${item.name}`} style={{textDecoration:"none"}} > 
+                           <div style={{borderBottom:"1px solid lightgrey",borderRight:"1px solid lightgrey",padding:'18px',display:"flex",alignItems:"center"}}>
+                              <div>
+                                 <img src={item.img} width='48px' height='48px' alt='afghanistan' />
+                              </div>
+                              <span style={{fontWeight:"700",paddingLeft:"10px",fontSize:"1.1rem",color:"#383838"}}>{item.name}</span>
+                           </div>
+                        </Link>
+                        )}
+                        
+                     </InternationTeam>
+                  </TeamWrapper>
+            </div>
+         </div>
+         <br/>
+         <br/>
       </div>
    )
 }
 
 export default Teams;
+
+const TeamWrapper = styled.div`
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+   padding-top:0.5px;
+   border-radius:5px;
+`
+const InternationTeam = styled.div`
+   border-top:1px solid lightgrey;
+   display:grid;
+   grid-template-columns:repeat(3, 1fr);
+   grid-template-row:auto;
+`
+
+
