@@ -1,8 +1,10 @@
 import React from "react";
-import {Link , NavLink} from "react-router-dom"
-import { Heading, Box, Text, color } from "@chakra-ui/react";
-import { ArrowDownIcon} from '@chakra-ui/icons'
+import { Heading, Box, Text } from "@chakra-ui/react";
+import { ArrowDownIcon} from '@chakra-ui/icons';
 import styles from "./Series.module.css";
+import {NavLink} from "react-router-dom"
+
+
 const Series = () => {
   return (
     <div>

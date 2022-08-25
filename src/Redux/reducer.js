@@ -60,5 +60,9 @@ export const reducer = (state = initialState, action) => {
             ...state,
             isError:true
          }
+      default:
+         return {
+            ...state
+         }
    }
 }

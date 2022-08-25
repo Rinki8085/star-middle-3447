@@ -16,21 +16,8 @@ function App() {
 
   return (
 
-    // <div >
-    //     <Routes>
-    //       <Route path="/Series" element={<Series/>}/>
-    //       <Route path="/Future_matches"  element={<Future/>}/>
-    //       <Route path="recently" element={<Recently/> }/>
-    //     </Routes>
-        
-        
-      
-
     <div className="App">
-
       <MainRoutes/>
-
-
     </div>
   );
 }

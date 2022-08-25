@@ -1,8 +1,9 @@
 import React from "react";
+import styles from "./Series.module.css";
 import {NavLink} from "react-router-dom"
 import { Heading, Box, Text } from "@chakra-ui/react";
-import { ArrowDownIcon} from '@chakra-ui/icons'
-import styles from "./Series.module.css";
+
+
 const Future = () => {
   return (
     <div>
