@@ -1,10 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import {Routes, Route} from "react-router-dom"
+import Future from './Component/Future';
+import Recently from "./Component/Recently";
+import Series from './Component/Series';
 
 function App() {
   return (
-    <div className="App">
-      <h2>hello</h2>
+    <div >
+        <Routes>
+          <Route path="/Series" element={<Series/>}/>
+          <Route path="/Future_matches"  element={<Future/>}/>
+          <Route path="recently" element={<Recently/> }/>
+        </Routes>
+        
+        
+      
     </div>
   );
 }
