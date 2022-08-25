@@ -17,5 +17,4 @@ const MainRoutes = ()=>{
       </Routes>
    )
 }
-
 export default MainRoutes;

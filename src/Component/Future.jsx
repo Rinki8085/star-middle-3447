@@ -1,7 +1,8 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
-import { Heading, Box, Text } from "@chakra-ui/react";
 import styles from "./Series.module.css";
+import {NavLink} from "react-router-dom"
+import { Heading, Box, Text } from "@chakra-ui/react";
+
 
 const Future = () => {
   return (

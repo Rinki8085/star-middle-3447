@@ -1,6 +1,7 @@
 import React from "react";
 import {NavLink} from "react-router-dom"
 import { Heading, Box, Text } from "@chakra-ui/react";
+import { ArrowDownIcon} from '@chakra-ui/icons';
 import styles from "./Series.module.css";
 const Recently = () => {
   return (

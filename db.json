@@ -2,9 +2,9 @@
   "internationalTeam": [
     {
       "id": 1,
-      "name":"Afghanistan",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/321000/321005.png",
-      "details":[
+      "name": "Afghanistan",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/321000/321005.png",
+      "details": [
         {
           "day_date_time":"SAT, 27 AUG, 7:30 PM",
           "team_group":"Group B(N), Dubai(DSC), August 27,2022, Asi...",
@@ -48,77 +48,122 @@
       ],
       "top_wicket_takers":[
         {
-          "name":"Rashid Khan",
-          "image":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/289200/289234.1.jpg",
-          "wicket":"18",
-          "innings":"9",
-          "average":"19.22",
-          "code":"lbg"
+          "day-date-time": "SAT, 27 AUG, 7:30 PM",
+          "team-group": "Group B(N), Dubai(DSC), August 27,2022, Asi...",
+          "country1-code": "AFG",
+          "country1-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/321000/321005.png",
+          "counry2": "Sl",
+          "country2-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340000/340047.png"
         },
         {
-          "name":"Fazalhaq Farooqi",
-          "image":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/306700/306755.3.jpg",
-          "wicket":"13",
-          "innings":"7",
-          "average":"21.23",
-          "code":"lfm"
+          "day-date-time": "TUES, 30 AUG, 7:30 PM",
+          "team-group": "Group B(N), Sharhaj, August 30, 2022,Asia Cup",
+          "country1-code": "AFG",
+          "country1-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/321000/321005.png",
+          "counry2": "BAN",
+          "country2-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/341400/341456.png"
         },
         {
-          "name":"Mohammad Nabi",
-          "image":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/303200/303280.jpg",
-          "wicket":"10",
-          "innings":"6",
-          "average":"17.30",
-          "code":"ob"
+          "day-date-time": "SAT, 22 OCT, 4:30 PM",
+          "team-group": "14th Match, Group 1(N), Perth, October 22, 202..",
+          "country1-code": "AGF",
+          "country1-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/321000/321005.png",
+          "counry2": "NZ",
+          "country2-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340500/340505.png"
+        },
+        {
+          "day-date-time": "WED, 28 OCT, 9:30 AM",
+          "team-group": "25th Match, Group 1(D/N), Melbourne, Octobe...",
+          "country1-code": "AGF",
+          "country1-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/321000/321005.png",
+          "counry2": "",
+          "country2-code-img": ""
+        },
+        {
+          "day-date-time": "TUES, 01 NOV, 9:30 AM",
+          "team-group": "32nd Match, Group 1, Brisbane, November 01, 2...",
+          "country1-code": "AGF",
+          "country1-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/321000/321005.png",
+          "counry2": "AUS",
+          "country2-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png"
         }
       ],
+      "top-wicket-takers": [
+
+        {
+          "name": "Rashid Khan",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/289200/289234.1.jpg",
+          "wicket": "18",
+          "innings": "9",
+          "average": "19.22",
+          "code": "lbg"
+        },
+        {
+          "name": "Fazalhaq Farooqi",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/306700/306755.3.jpg",
+          "wicket": "13",
+          "innings": "7",
+          "average": "21.23",
+          "code": "lfm"
+        },
+        {
+          "name": "Mohammad Nabi",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/303200/303280.jpg",
+          "wicket": "10",
+          "innings": "6",
+          "average": "17.30",
+          "code": "ob"
+        }
+      ],
+
       "top_run_scores":[
+
         {
-          "name":"Rahmat Shah",
-          "image":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/303200/303287.jpg",
-          "runs":"484",
-          "innings":"9",
-          "average":"53.77",
-          "code":"rhb"
+          "name": "Rahmat Shah",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/303200/303287.jpg",
+          "runs": "484",
+          "innings": "9",
+          "average": "53.77",
+          "code": "rhb"
         },
         {
-          "name":"Hashmatullah Shahidi",
-          "image":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/303200/303271.jpg",
-          "runs":"317",
-          "innings":"9",
-          "average":"39.62",
-          "code":"lhb"
+          "name": "Hashmatullah Shahidi",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/303200/303271.jpg",
+          "runs": "317",
+          "innings": "9",
+          "average": "39.62",
+          "code": "lhb"
         },
         {
-          "name":"Rahmaanullah Gurbaz",
-          "image":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/271600/271689.1.jpg",
-          "runs":"276",
-          "innings":"9",
-          "average":"34.50",
-          "code":"rhb"
+          "name": "Rahmaanullah Gurbaz",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/271600/271689.1.jpg",
+          "runs": "276",
+          "innings": "9",
+          "average": "34.50",
+          "code": "rhb"
         }
       ]
     },
     {
       "id": 2,
-      "name":"Australia",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png"
+      "name": "Australia",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png"
     },
     {
       "id": 3,
-      "name":"Bangladesh",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/341400/341456.png"
+      "name": "Bangladesh",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/341400/341456.png"
     },
     {
       "id": 4,
-      "name":"England",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313114.logo.png"
+      "name": "England",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313114.logo.png"
     },
     {
       "id": 5,
-      "name":"India",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png",
-      "details":[
+      "name": "India",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png",
+      "details": [
         {
           "day_date_time":"SUN, 28 AUG, 7:30 PM",
           "team_group":"Group A(N), Dubai(DSC), August 28, 2022, Asi...",
@@ -161,206 +206,248 @@
         }
       ],
       "top_run_scores":[
-        {
-          "name":"Rishabh Pant",
-          "image":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/304200/304221.png",
-          "runs":"636",
-          "innings":"15",
-          "average":"45.42",
-          "code":"lhb"
+      {
+          "day-date-time": "SUN, 28 AUG, 7:30 PM",
+          "team-group": "Group A(N), Dubai(DSC), August 28, 2022, Asi...",
+          "country1-code": "INDIA",
+          "country1-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png",
+          "counry2": "PAK",
+          "country2-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313129.logo.png"
         },
         {
-          "name":"Virat Kohli",
-          "image":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/289000/289002.1.jpg",
-          "runs":"465",
-          "innings":"15",
-          "average":"31.00",
-          "code":"rhb"
+          "day-date-time": "TUES, 20 SEP, 7:30 PM",
+          "team-group": "1st T201(N), Mohali, September 20, 2022, Aust...",
+          "country1-code": "INDIA",
+          "country1-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png",
+          "counry2": "AUS",
+          "country2-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png"
         },
         {
-          "name":"Cheteshwar Pujara",
-          "image":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/295200/295261.1.jpg",
-          "runs":"455",
-          "innings":"16",
-          "average":"28.43",
-          "code":"rhb"
+          "day-date-time": "FRI, 23 SEP, 7:30 PM",
+          "team-group": "2nd T201(N), Nagpur, September 23, 2022, Au...",
+          "country1-code": "INDIA",
+          "country1-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png",
+          "counry2": "AUS",
+          "country2-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png"
+        },
+        {
+          "day-date-time": "SUN, 02 OCT, 7:30 PM",
+          "team-group": "2nd T201(N), Guwahati, October 02, 2022, Sou...",
+          "country1-code": "INDIA",
+          "country1-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png",
+          "counry2": "SA",
+          "country2-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313125.logo.png"
+        },
+        {
+          "day-date-time": "TUES, 04 OCT, 7:30 PM",
+          "team-group": "Group B(N), Dubai(DSC), August 27,2022, Asi...",
+          "country1-code": "INDIA",
+          "country1-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png",
+          "counry2": "SA",
+          "country2-code-img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313125.logo.png"
+        }
+      ],
+      "top-run-scores": [
+        {
+          "name": "Rishabh Pant",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/304200/304221.png",
+          "runs": "636",
+          "innings": "15",
+          "average": "45.42",
+          "code": "lhb"
+        },
+        {
+          "name": "Virat Kohli",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/289000/289002.1.jpg",
+          "runs": "465",
+          "innings": "15",
+          "average": "31.00",
+          "code": "rhb"
+        },
+        {
+          "name": "Cheteshwar Pujara",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/295200/295261.1.jpg",
+          "runs": "455",
+          "innings": "16",
+          "average": "28.43",
+          "code": "rhb"
         }
       ],
       "top_wicket_takers":[
         {
-          "name":"Jasprit Bumrah",
-          "image":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/302300/302376.jpg",
-          "wicket":"33",
-          "innings":"15",
-          "average":"20.18",
-          "code":"rf"
+          "name": "Jasprit Bumrah",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/302300/302376.jpg",
+          "wicket": "33",
+          "innings": "15",
+          "average": "20.18",
+          "code": "rf"
         },
         {
-          "name":"Ravichandran Ashwin",
-          "image":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/302300/302395.jpg",
-          "wicket":"29",
-          "innings":"14",
-          "average":"18.00",
-          "code":"ob"
+          "name": "Ravichandran Ashwin",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/302300/302395.jpg",
+          "wicket": "29",
+          "innings": "14",
+          "average": "18.00",
+          "code": "ob"
         },
         {
-          "name":"Mohammad Shami",
-          "image":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/304200/304210.png",
-          "wicket":"25",
-          "innings":"13",
-          "average":"26.00",
-          "code":"rf"
+          "name": "Mohammad Shami",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/304200/304210.png",
+          "wicket": "25",
+          "innings": "13",
+          "average": "26.00",
+          "code": "rf"
         }
       ]
     },
     {
       "id": 6,
-      "name":"Ireland",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313149.logo.png"
+      "name": "Ireland",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313149.logo.png"
     },
     {
       "id": 7,
-      "name":"New Zealand",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340500/340505.png"
+      "name": "New Zealand",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340500/340505.png"
     },
     {
       "id": 8,
-      "name":"Pakistan",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313129.logo.png"
+      "name": "Pakistan",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313129.logo.png"
     },
     {
       "id": 9,
-      "name":"Scotland",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313150.logo.png"
+      "name": "Scotland",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313150.logo.png"
     },
     {
       "id": 10,
-      "name":"South Africa",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313125.logo.png"
+      "name": "South Africa",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313125.logo.png"
     },
     {
       "id": 11,
-      "name":"Sri Lanka",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340000/340047.png"
+      "name": "Sri Lanka",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340000/340047.png"
     },
     {
       "id": 12,
-      "name":"United Arab Emirates",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313147.logo.png"
+      "name": "United Arab Emirates",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313147.logo.png"
     },
     {
       "id": 13,
-      "name":"West Indies",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317600/317615.png"
+      "name": "West Indies",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317600/317615.png"
     },
     {
       "id": 14,
-      "name":"Zimbabwe",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340500/340503.png"
+      "name": "Zimbabwe",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340500/340503.png"
     }
   ],
   "womenTeam": [
     {
       "id": 1,
-      "name":"Australia Women",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313200/313225.logo.png"
+      "name": "Australia Women",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313200/313225.logo.png"
     },
     {
       "id": 2,
-      "name":"Bangladesh Women",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313401.logo.png"
+      "name": "Bangladesh Women",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313401.logo.png"
     },
     {
       "id": 3,
-      "name":"England Women",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313200/313261.logo.png"
+      "name": "England Women",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313200/313261.logo.png"
     },
     {
       "id": 4,
-      "name":"India Women",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313309.logo.png"
+      "name": "India Women",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313309.logo.png"
     },
     {
       "id": 5,
-      "name":"New Zealand Women",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313335.logo.png"
+      "name": "New Zealand Women",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313335.logo.png"
     },
     {
       "id": 6,
-      "name":"Pakistan Women",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313341.logo.png"
+      "name": "Pakistan Women",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313341.logo.png"
     },
     {
       "id": 7,
-      "name":"South Africa Women",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313348.logo.png"
+      "name": "South Africa Women",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313348.logo.png"
     },
     {
       "id": 8,
-      "name":"Sri Lanka Women",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340000/340047.png"
+      "name": "Sri Lanka Women",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340000/340047.png"
     },
     {
       "id": 9,
-      "name":"Thailand Women",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313402.logo.png"
+      "name": "Thailand Women",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313402.logo.png"
     },
     {
       "id": 10,
-      "name":"West Indies Women",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317600/317615.png"
+      "name": "West Indies Women",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317600/317615.png"
     }
   ],
   "IPLteams": [
     {
       "id": 1,
-      "name":"Chennai Super Kings",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313421.logo.png"
+      "name": "Chennai Super Kings",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313421.logo.png"
     },
     {
       "id": 2,
-      "name":"Delhi Capitals",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313422.logo.png"
+      "name": "Delhi Capitals",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313422.logo.png"
     },
     {
       "id": 3,
-      "name":"Gujarat Titans",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/334700/334707.png"
+      "name": "Gujarat Titans",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/334700/334707.png"
     },
     {
       "id": 4,
-      "name":"Kolkata Knight Riders",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313419.logo.png"
+      "name": "Kolkata Knight Riders",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313419.logo.png"
     },
     {
       "id": 5,
-      "name":"Lucknow Super Giants",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/333800/333885.png"
+      "name": "Lucknow Super Giants",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/333800/333885.png"
     },
     {
       "id": 6,
-      "name":"Mumbai indians",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/333800/333885.png"
+      "name": "Mumbai indians",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/333800/333885.png"
     },
     {
       "id": 7,
-      "name":"Punjab Kings",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317000/317003.png"
+      "name": "Punjab Kings",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317000/317003.png"
     },
     {
       "id": 8,
-      "name":"Rajasthan Royals",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313423.logo.png"
+      "name": "Rajasthan Royals",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313423.logo.png"
     },
     {
       "id": 9,
-      "name":"Royal Challengers Bangalore",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313418.logo.png"
+      "name": "Royal Challengers Bangalore",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313418.logo.png"
     },
     {
       "id": 10,
-      "name":"Sunrisers Hyderabad",
-      "img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313480.logo.png"
+      "name": "Sunrisers Hyderabad",
+      "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313480.logo.png"
     }
   ],
   "articles": [
