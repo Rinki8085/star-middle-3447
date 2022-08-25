@@ -1,0 +1,22 @@
+.main{
+    width: 100%;
+    border: 1px solid red;
+    border-radius: 0.7rem;
+}
+
+.heading{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-left: 1rem;
+    margin-top: 0.6rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+}
+
+.grid img{
+    width: 5%;
+}

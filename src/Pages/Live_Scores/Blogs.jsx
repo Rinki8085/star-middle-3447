@@ -38,7 +38,7 @@ export const Box = () => {
   return (
     <div>
       <div>
-        <h3>QUICK LINKS</h3>
+        <h5 className={Styles.heading}>QUICK LINKS</h5>
         <hr />
       </div>
       <div>
@@ -46,7 +46,7 @@ export const Box = () => {
           <iconify-icon
             inline
             icon="mdi:scoreboard"
-            style={{ color: "royalblue" }}
+            style={{ color: "royalblue", marginLeft: "1rem" }}
             width="20"
           ></iconify-icon>
           <span className={Styles.span}>Desktop Scoreboard</span>
@@ -59,7 +59,7 @@ export const Box = () => {
           <iconify-icon
             inline
             icon="eva:refresh-fill"
-            style={{ color: " royalblue" }}
+            style={{ color: " royalblue", marginLeft: "1rem" }}
             width="20"
           ></iconify-icon>
           <span className={Styles.span}>Series Archive</span>
@@ -70,7 +70,7 @@ export const Box = () => {
           <iconify-icon
             inline
             icon="akar-icons:arrow-right"
-            style={{ color: "royalblue" }}
+            style={{ color: "royalblue", marginLeft: "1rem" }}
             width="20"
           ></iconify-icon>
           <span className={Styles.span}>International Calender</span>
