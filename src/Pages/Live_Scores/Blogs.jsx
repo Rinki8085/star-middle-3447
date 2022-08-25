@@ -9,22 +9,20 @@ const Blogs = () => {
   }, []);
 
   const getData = async () => {
-    const res = await fetch(
-      "https://newsapi.org/v2/top-headlines?country=in&category=sports&pageSize=10&apiKey=035971f86c424adeb5ef8a805d1a0297"
-    );
+    const res = await fetch("http://localhost:8080/articles");
     const payload = await res.json();
-    // console.log(payload.articles);
+    // console.log(payload);
 
-    setData(payload.articles);
+    setData(payload);
   };
   return (
     <div className={Styles.main}>
       <div className={Styles.inner}>
         <Box />
       </div>
-      {data.map((el, index) => (
+      {data.filter((el,index)=>index<8).map((el, index) => (
         <div className={Styles.inner} key={index}>
-          <img src={el.urlToImage} alt="article_image" />
+          <img src={el.urlToImage} alt="" />
           <p>{el.description}</p>
         </div>
       ))}

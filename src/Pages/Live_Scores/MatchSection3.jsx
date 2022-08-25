@@ -1,18 +1,17 @@
 import React from "react";
 import Styles from "./MatchSection.module.css";
 
-const MatchSection1 = ({ data, title }) => {
+const MatchSection3 = ({ data, title }) => {
   return (
     <div className={Styles.main}>
       <div className={Styles.heading}>{title}</div>
       <div className={Styles.grid}>
         {data
-          .filter(
-            (el, index) => index % 5 == 0
-          )
+          .filter((el) => el.t1 === "Glamorgan [GLAM]")
           .map((el) => (
             <div key={el.id} className={Styles.box}>
               <h4>{el.status}</h4>
+              <h6>{el.dateTimeGMT}</h6>
               <img src={el.t1img} alt="" />
               <span>{el.t1}</span>
               <span>{el.t1s}</span>
@@ -27,4 +26,4 @@ const MatchSection1 = ({ data, title }) => {
   );
 };
 
-export default MatchSection1;
+export default MatchSection3;

@@ -1,15 +1,13 @@
 import React from "react";
 import Styles from "./MatchSection.module.css";
 
-const MatchSection1 = ({ data, title }) => {
+const MatchSection2 = ({ data, title }) => {
   return (
     <div className={Styles.main}>
       <div className={Styles.heading}>{title}</div>
       <div className={Styles.grid}>
         {data
-          .filter(
-            (el, index) => index % 5 == 0
-          )
+          .filter((el, index) => el.t1 === "Kenya [KEN]" && index % 2 == 0)
           .map((el) => (
             <div key={el.id} className={Styles.box}>
               <h4>{el.status}</h4>
@@ -27,4 +25,4 @@ const MatchSection1 = ({ data, title }) => {
   );
 };
 
-export default MatchSection1;
+export default MatchSection2;
