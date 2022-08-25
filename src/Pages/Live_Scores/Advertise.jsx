@@ -6,7 +6,7 @@ const Advertise = () => {
     <div className={Styles.main}>
       <img
         src="https://tpc.googlesyndication.com/simgad/931568015193886157?"
-        alt="advertise"
+        alt=""
       />
     </div>
   );

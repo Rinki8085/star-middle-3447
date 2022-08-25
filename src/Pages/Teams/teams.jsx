@@ -103,7 +103,7 @@ const InternationTeam = styled.div`
    border-top:1px solid lightgrey;
    display:grid;
    grid-template-columns:repeat(3, 1fr);
-   grid-template-row:auto;
+   grid-template-rows:auto;
 `
 
 
