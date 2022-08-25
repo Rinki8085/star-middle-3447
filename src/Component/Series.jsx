@@ -1,6 +1,6 @@
 import React from "react";
-import {Link} from "react-router-dom"
-import { Heading, Box, Text } from "@chakra-ui/react";
+import {Link , NavLink} from "react-router-dom"
+import { Heading, Box, Text, color } from "@chakra-ui/react";
 import { ArrowDownIcon} from '@chakra-ui/icons'
 import styles from "./Series.module.css";
 const Series = () => {
@@ -11,19 +11,19 @@ const Series = () => {
       </Heading>
       
       <Box className={styles.outerbox}>
-      
+      <img src="https://tpc.googlesyndication.com/daca_images/simgad/532420073875604930"  style={{paddingLeft:"125px" , paddingTop:"20px"}}/>
+        <img style={{marginLeft:"78%" , width:"20%", marginTop:"20px" ,}} src="https://tpc.googlesyndication.com/simgad/10028855014806727821?" alt="" />
         
-        <Box style={{marginLeft:"78%" , marginTop:"10px" , marginRight:"20px", }}>
-            <img src="https://tpc.googlesyndication.com/simgad/2618765116939835931?"/>
-            
-        </Box>
-        <Box className={styles.heading2}>
+        <Box className={styles.heading2} style={{marginTop:"-190px"}}>
         
-          <Text fontSize="md"><Link to="/Series">Current Cricket</Link></Text>
+          <Text fontSize="md"><NavLink to="/Series" style={({ isActive }) => ({ 
+                            color: isActive ? 'blue' : 'white' })}>Current Cricket</NavLink></Text>
           <div className={styles.vertical}></div>
-          <Text fontSize="md" > <Link to="/future_matches">Future Series / Tournaments</Link> </Text>
+          <Text fontSize="md" > <NavLink to="/future_matches" style={({ isActive }) => ({ 
+                            color: isActive ? 'blue' : 'black' })}>Future Series / Tournaments</NavLink> </Text>
           <div className={styles.vertical}></div>
-          <Text fontSize="md"> <Link to="/recently">Recently Concluded</Link></Text>
+          <Text fontSize="md"> <NavLink to="/recently" style={({ isActive }) => ({ 
+                            color: isActive ? 'blue' : 'black' })}>Recently Concluded</NavLink></Text>
         </Box>
         {/* <hr style={{ backgroundColor: "black" , width:"auto"}}  /> */}
         <Box className={styles.content}>

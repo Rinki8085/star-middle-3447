@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import {NavLink} from "react-router-dom"
 import { Heading, Box, Text } from "@chakra-ui/react";
 import { ArrowDownIcon} from '@chakra-ui/icons'
 import styles from "./Series.module.css";
@@ -11,7 +11,7 @@ const Future = () => {
       </Heading>
       
       <Box className={styles.outerbox}>
-      
+      <img src="https://tpc.googlesyndication.com/daca_images/simgad/532420073875604930"  style={{paddingLeft:"125px" , paddingTop:"20px"}}/>
         
         <Box style={{marginLeft:"78%" , marginTop:"10px" , marginRight:"20px", }}>
             <img src="https://tpc.googlesyndication.com/simgad/2618765116939835931?"/>
@@ -19,11 +19,13 @@ const Future = () => {
         </Box>
         <Box className={styles.heading2}>
         
-          <Text fontSize="md"><Link to="/Series">Current Cricket</Link></Text>
+          <Text fontSize="md"><NavLink to="/Series" style={({ isActive }) => ({ 
+                            color: isActive ? 'blue' : 'black' })}>Current Cricket</NavLink></Text>
           <div className={styles.vertical}></div>
-          <Text fontSize="md" > <Link to="/future_matches">Future Series / Tournaments</Link> </Text>
+          <Text fontSize="md" > <NavLink to="/future_matches">Future Series / Tournaments</NavLink> </Text>
           <div className={styles.vertical}></div>
-          <Text fontSize="md">Recently Concluded</Text>
+          <Text fontSize="md"><NavLink to="/recently" style={({ isActive }) => ({ 
+                            color: isActive ? 'blue' : 'black' })}>Recently Concluded</NavLink></Text>
         </Box>
         {/* <hr style={{ backgroundColor: "black" , width:"auto"}}  /> */}
         <Box className={styles.content}>
