@@ -47,3 +47,11 @@ h5{
     visibility:unset;
     left: 50%;
 }
+.blogbox{
+    margin-left: 78%;
+    border: .5px solid;
+    width: 20%;
+    margin-top: 20px;
+    height: 400px;
+    overflow: scroll;
+}

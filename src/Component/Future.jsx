@@ -3,6 +3,7 @@ import {NavLink} from "react-router-dom"
 import { Heading, Box, Text } from "@chakra-ui/react";
 import { ArrowDownIcon} from '@chakra-ui/icons'
 import styles from "./Series.module.css";
+import Blogs from "../Pages/Live_Scores/Blogs";
 const Future = () => {
   return (
     <div>
@@ -17,12 +18,16 @@ const Future = () => {
             <img src="https://tpc.googlesyndication.com/simgad/2618765116939835931?"/>
             
         </Box>
-        <Box className={styles.heading2}>
+        <div className={styles.blogbox}>
+        <Blogs />
+        </div>
+        <Box className={styles.heading2} style={{marginTop:"-420px"}}>
         
           <Text fontSize="md"><NavLink to="/Series" style={({ isActive }) => ({ 
                             color: isActive ? 'blue' : 'black' })}>Current Cricket</NavLink></Text>
           <div className={styles.vertical}></div>
-          <Text fontSize="md" > <NavLink to="/future_matches">Future Series / Tournaments</NavLink> </Text>
+          <Text fontSize="md" > <NavLink to="/future_matches" style={({ isActive }) => ({ 
+                            color: isActive ? 'blue' : 'black' })}>Future Series / Tournaments</NavLink> </Text>
           <div className={styles.vertical}></div>
           <Text fontSize="md"><NavLink to="/recently" style={({ isActive }) => ({ 
                             color: isActive ? 'blue' : 'black' })}>Recently Concluded</NavLink></Text>

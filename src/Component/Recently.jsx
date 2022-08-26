@@ -11,21 +11,22 @@ const Recently = () => {
       </Heading>
       
       <Box className={styles.outerbox}>
-      
+          <img src="https://tpc.googlesyndication.com/simgad/12856453960124024269?" style={{paddingLeft:"125px" , marginBottom:"-40px", paddingTop:"20px"}} />
         
         <Box style={{marginLeft:"78%" , marginTop:"10px" , marginRight:"20px", }}>
             <img src="https://tpc.googlesyndication.com/simgad/2618765116939835931?"/>
             
         </Box>
         <Box className={styles.heading2}>
-        
+          
           <Text fontSize="md"><NavLink to="/Series" style={({ isActive }) => ({ 
-                            color: isActive ? 'blue' : 'white' })}>Current Cricket</NavLink></Text>
+                            color: isActive ? 'blue' : 'black' })}>Current Cricket</NavLink></Text>
           <div className={styles.vertical}></div>
           <Text fontSize="md" > <NavLink to="/future_matches" style={({ isActive }) => ({ 
-                            color: isActive ? 'blue' : 'white' })}>Future Series / Tournaments</NavLink> </Text>
+                            color: isActive ? 'blue' : 'black' })}>Future Series / Tournaments</NavLink> </Text>
           <div className={styles.vertical}></div>
-          <Text fontSize="md">Recently Concluded</Text>
+          <Text fontSize="md" ><NavLink to="/recently" style={({ isActive }) => ({ 
+                            color: isActive ? 'blue' : 'black' })}>Recently Concluded</NavLink></Text>
         </Box>
         {/* <hr style={{ backgroundColor: "black" , width:"auto"}}  /> */}
         <Box className={styles.content}>
