@@ -5,6 +5,7 @@ import Teams from './Teams/Teams';
 import Series from '../Component/Series';
 import Future from '../Component/Future';
 import Recently from '../Component/Recently';
+import LiveScore from "./Live_Scores/LiveScore";
 
 const MainRoutes = ()=>{
    return(
@@ -14,6 +15,7 @@ const MainRoutes = ()=>{
          <Route path="/Series" element={<Series/>}/>
          <Route path="/Future_matches"  element={<Future/>}/>
          <Route path="/recently" element={<Recently/> }/>
+         <Route path="/livescore" element={<LiveScore />} />
       </Routes>
    )
 }
