@@ -4,6 +4,7 @@ const initialState = {
    internationalTeam:[],
    womensTeam:[],
    iplTeam:[],
+   articles:[],
    isLoading: false,
    isError:false,
 };
@@ -57,6 +58,22 @@ export const reducer = (state = initialState, action) => {
          }
       case types.GET_IPL_TEAM_DATA_FAILURE:
          return {
+            ...state,
+            isError:true
+         }
+      case types.GET_ARTICLES_DATA_REQUEST:
+         return{
+            ...state,
+            isLoading:true
+         }
+      case types.GET_ARTICLES_DATA_SUCCESS:
+         return{
+            ...state,
+            isLoading:false,
+            articles:payload
+         }
+      case types.GET_ARTICLES_DATA_FAILURE:
+         return{
             ...state,
             isError:true
          }
