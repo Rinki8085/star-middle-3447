@@ -10,8 +10,9 @@ const MatchSection3 = ({ data, title }) => {
           .filter((el) => el.t1 === "Glamorgan [GLAM]")
           .map((el) => (
             <div key={el.id} className={Styles.box}>
-              <h4>{el.status}</h4>
-              <h6>{el.dateTimeGMT}</h6>
+              <h4>
+                {el.status} ({el.matchType.toUpperCase()})
+              </h4>
               <img src={el.t1img} alt="" />
               <span>{el.t1}</span>
               <span>{el.t1s}</span>
