@@ -3,7 +3,8 @@ import {useDispatch, useSelector} from 'react-redux';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 import {getInternationalTeamData, getWomenTeamData, getIplTeamData} from '../../Redux/action';
-import Navbar from '../../Component/navbar';
+import Navbar from '../../Component/HomePage/Navbar/navbar';
+import Footers from '../../Component/HomePage/footersecond/footers';
 
 const Teams=()=>{
    const internationalTeam = useSelector((state)=>state.internationalTeam);
@@ -28,7 +29,7 @@ const Teams=()=>{
             </div>
             <div>
                   <TeamWrapper>
-                     <div style={{padding:"15px",fontWeight:"700"}}>
+                     <div style={{paddingLeft:"15px",fontWeight:"700"}}>
                         <h3>POPULAR INTERNATIONAL TEAMS</h3>
                      </div>
                      <InternationTeam>
@@ -47,7 +48,7 @@ const Teams=()=>{
                   </TeamWrapper>
                   <br/>
                   <TeamWrapper>
-                     <div style={{padding:"15px",fontWeight:"700"}}>
+                     <div style={{paddingLeft:"15px",fontWeight:"700"}}>
                         <h3>POPULAR WOMEN'S TEAMS</h3>
                      </div>
                      <InternationTeam>
@@ -66,7 +67,7 @@ const Teams=()=>{
                   </TeamWrapper>
                   <br/>
                   <TeamWrapper>
-                     <div style={{padding:"15px",fontWeight:"700"}}>
+                     <div style={{paddingLeft:"15px",fontWeight:"700"}}>
                         <h3>IPL 2022 TEAMS</h3>
                      </div>
                      <InternationTeam>
@@ -86,6 +87,7 @@ const Teams=()=>{
          </div>
          <br/>
          <br/>
+         <Footers/>
       </div>
    )
 }

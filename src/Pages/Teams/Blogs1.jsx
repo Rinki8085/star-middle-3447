@@ -40,10 +40,10 @@ const Blogs1 = ()=>{
             <div>
                {/* <ArticlesOfTeam articles={articles} /> */}
                {articles.map((item)=>
-                  <ArticlesOfTeam id={item.id} articles={item.title} content={item.description} url={item.urlToImage} />
+                  <ArticlesOfTeam key={item.id} id={item.id} articles={item.title} content={item.description} url={item.urlToImage} />
                )}
                {articles.map((item)=>
-                  <ArticlesOfTeam id={item.id} articles={item.title} content={item.description} url={item.urlToImage} />
+                  <ArticlesOfTeam key={item.id} id={item.id} articles={item.title} content={item.description} url={item.urlToImage} />
                )}
             </div>
          </div>
