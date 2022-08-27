@@ -20,7 +20,8 @@ const Homepage=() =>{
             <LSBar />
           </div>
           <Footermain />
-          <Footers/>
+          <Footers />
+
         </div>
       
     )

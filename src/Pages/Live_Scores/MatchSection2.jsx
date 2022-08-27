@@ -10,7 +10,9 @@ const MatchSection2 = ({ data, title }) => {
           .filter((el, index) => el.t1 === "Kenya [KEN]" && index % 2 == 0)
           .map((el) => (
             <div key={el.id} className={Styles.box}>
-              <h4>{el.status}</h4>
+              <h4>
+                {el.status} ({el.matchType.toUpperCase()})
+              </h4>
               <img src={el.t1img} alt="" />
               <span>{el.t1}</span>
               <span>{el.t1s}</span>

@@ -20,12 +20,14 @@ const Blogs = () => {
       <div className={Styles.inner}>
         <Box />
       </div>
-      {data.filter((el,index)=>index<8).map((el, index) => (
-        <div className={Styles.inner} key={index}>
-          <img src={el.urlToImage} alt="" />
-          <p>{el.description}</p>
-        </div>
-      ))}
+      {data
+        .filter((el, index) => index < 8)
+        .map((el, index) => (
+          <div className={Styles.inner} key={index}>
+            <img src={el.urlToImage} alt="" />
+            <p>{el.description}</p>
+          </div>
+        ))}
     </div>
   );
 };
