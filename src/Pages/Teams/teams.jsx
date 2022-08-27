@@ -3,7 +3,8 @@ import {useDispatch, useSelector} from 'react-redux';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 import {getInternationalTeamData, getWomenTeamData, getIplTeamData} from '../../Redux/action';
-import Navbar from '../../Component/navbar';
+import Navbar from '../../Component/HomePage/Navbar/navbar';
+import Footers from '../../Component/HomePage/footersecond/footers';
 
 const Teams=()=>{
    const internationalTeam = useSelector((state)=>state.internationalTeam);
@@ -86,6 +87,7 @@ const Teams=()=>{
          </div>
          <br/>
          <br/>
+         <Footers/>
       </div>
    )
 }
