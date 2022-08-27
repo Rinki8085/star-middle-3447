@@ -7,12 +7,12 @@ const MatchSection1 = ({ data, title }) => {
       <div className={Styles.heading}>{title}</div>
       <div className={Styles.grid}>
         {data
-          .filter(
-            (el, index) => index % 5 == 0
-          )
+          .filter((el, index) => index % 5 == 0)
           .map((el) => (
             <div key={el.id} className={Styles.box}>
-              <h4>{el.status}</h4>
+              <h4>
+                {el.status} ({el.matchType.toUpperCase()})
+              </h4>
               <img src={el.t1img} alt="" />
               <span>{el.t1}</span>
               <span>{el.t1s}</span>
