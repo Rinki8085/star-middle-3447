@@ -1,10 +1,10 @@
 import React, { useRef } from 'react';
 import {useState,useEffect} from "react"
 import axios from "axios"
-import "./news.css"
+
 import {Flex,Grid,Stack} from "@chakra-ui/react"
 import { useNavigate } from 'react-router-dom';
-const News=()=>{
+const Feature=()=>{
   let [data,setdata]=useState([])
   let [mostread,setmostread]=useState([])
   let [writers, setwriters]=useState([])
@@ -18,11 +18,13 @@ const News=()=>{
   let [datta,setdatta]=useState(0)
   useEffect(()=>{
    let get=()=>{
-      axios.get("http://localhost:8080/news").then(r=>{setlatestnewsimage(r.data.latestnewsimage);setotherwriter(r.data.Writers);setdata(r.data.Latestnews);setmostread(r.data.MostRead);setwriters(r.data.writershort)});
+      axios.get("http://localhost:8080/news").then(r=>{setlatestnewsimage(r.data.featureimage);setotherwriter(r.data.Writers);setdata(r.data.feature);setmostread(r.data.MostRead);setwriters(r.data.writershort)});
    }
    get()
   },[])
- 
+ useEffect(()=>{
+   
+ },[start])
    let funn=(value)=>{
      
       setdatta(value*20)
@@ -41,22 +43,21 @@ const News=()=>{
    <div className="newsmain" >
       <Flex justifyContent={"center"} style={{width:"100%",background:"white",height:"56px",marginBottom:"50px"}}>
          <Flex alignItems="center" style={{width:"80%",height:"80%"}}>
-            <h1 style={{fontFamily:"BentonSans-Bold,Arial,Noto Sans,sans-serif",fontSize:"14px",fontWeight:"700"}} >News</h1>
+            <h1 style={{fontFamily:"BentonSans-Bold,Arial,Noto Sans,sans-serif",fontSize:"14px",fontWeight:"700"}} >Features</h1>
             <div style={{width:"2px",height:"24px" ,background:"black",marginLeft:"20px"}}></div>
-            <Flex justifyContent={"space-evenly"} alignItems={"center"} width={"60%"} height="70%" >
-               <p className="hhov" onClick={()=>navigate("/news")}>News home</p>
-               <p className="hhov" onClick={()=>navigate("/news")}>RSS Index  </p>
-               <p className="hhov" onClick={()=>navigate("/news")}>Covid-19</p>
-               <p className="hhov" onClick={()=>navigate("/news/BallTampering")}>Ball-tampering</p>
-               <p className="hhov" onClick={()=>navigate("/news/technologyincricket")}>Technology in cricket</p>
-               <p className="hhov" onClick={()=>navigate("/news/Recism")}>Racism</p>
+            <Flex justifyContent={"space-evenly"} alignItems={"center"} width={"40%"} height="70%" >
+               <p className="hhov" onClick={()=>navigate("/features")}>Features home</p>
+               <p className="hhov" onClick={()=>navigate("/features/Writers")}>Writers  </p>
+               <p className="hhov" onClick={()=>navigate("/news")}>The Cricket Monthly</p>
+               <p className="hhov" onClick={()=>navigate("/features/gallery")}>Photo Galleries</p>
+               
             </Flex>
          </Flex>
       </Flex>
       <Flex  justifyContent={"center"} gap="16px">
          {bool?<Flex border={"1px solid gray"} flexDirection={"column"} className="Latestnews" backgroundColor={"white"} borderRadius={20} >
             <Stack height={68.4} >
-               <h1 className="h11">Latest News</h1>
+               <h1 className="h11">Features</h1>
             </Stack>
             <div className='latestnewsdiv'>
               {
@@ -119,13 +120,12 @@ const News=()=>{
                         mostread.map((elem)=>{
                            return(<><Flex justifyContent={"space-around"} heigth={76.8 } marginTop={2} >
                               <div>
-                                 <img style={{width:"63px",height:"63px",borderRadius:"5px" ,marginTop:"10px"}} src={elem.Image} />
+                                 <img style={{width:"63px",height:"63px",borderRadius:"5px"}} src={elem.Image} />
                               </div>
                               <div className="container">
                                  <h1>{elem.Title}</h1>
-                                 <p  ><Flex><p style={{fontSize:"12px"}} >{elem.dstextcompactxxs}</p>   <p style={{marginLeft:"20px",fontSize:"12px"}} >{elem.dstextcompactxxs1}</p></Flex>  </p>
+                                 <p><Flex><p style={{fontSize:"12px"}} >{elem.dstextcompactxxs}</p>   <p style={{marginLeft:"20px",fontSize:"12px"}} >{elem.dstextcompactxxs1}</p></Flex>  </p>
                               </div>
-                              
 
                            </Flex></>
                            )
@@ -137,7 +137,7 @@ const News=()=>{
             {bool?<div className="Writers">
                      <Flex className={"MostRead1"} alignItems={"center"} justifyContent={"space-between"}>
                         <h2 className='h11' style={{fontSize:"14px",paddingTop:"8px"}}  >Writers</h2>
-                        <a href='#' onClick={()=>{setbool(false);navigate("/features/Writers")}}    style={{color:"#03A9F4",marginRight:"10px"}}>see all</a>
+                        <a href='#' onClick={()=>{navigate("/features/Writers");setbool(false)}}   style={{color:"#03A9F4",marginRight:"10px"}}>see all</a>
                      </Flex>
                      <hr></hr>
                      <div>
@@ -175,4 +175,4 @@ const News=()=>{
    )
 }
 
-export default News;
+export default Feature;
