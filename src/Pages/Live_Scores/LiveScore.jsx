@@ -9,7 +9,7 @@ const LiveScore = () => {
     <div>
       <Advertise />
       <div className={Styles.main}>
-        <MiddleContent/>
+        <MiddleContent />
         <Blogs />
       </div>
     </div>
