@@ -9,6 +9,23 @@ const Matches = () => {
 
   const [btnClicked, setButtonClicked] = useState(null);
 
+  const [selected, setSelected] = useState("");
+
+  const handleChange = (event) => {
+    setSelected(event.target.value);
+    // console.log(event.target.value);
+    if (event.target.value === "all") {
+      setData(data);
+    } else {
+      setButtonClicked(event.target.value);
+      const filterData = data.filter(
+        (el) => el.t1 === event.target.value || el.t2 === event.target.value
+      );
+      // console.log(filterData);
+      setData(filterData);
+    }
+  };
+
   const handleClick = (btn) => {
     setButtonClicked(btn);
 
@@ -16,7 +33,7 @@ const Matches = () => {
       const filterData = data.filter(
         (el) =>
           el.t1 === "Birmingham Phoenix Women [BPW]" ||
-          el.t1 === "London Spirit Women "
+          el.t1 === "London Spirit Women [LSW]"
       );
       // console.log(filterData);
       setData(filterData);
@@ -25,7 +42,7 @@ const Matches = () => {
         (el) =>
           el.t1 !== "Birmingham Phoenix Women [BPW]" &&
           el.t1 !== "Manchester Originals Women [MOW]" &&
-          el.t1 !== "London Spirit Women "
+          el.t1 !== "London Spirit Women [LSW]"
       );
       // console.log(filterData);
       setData(filterData);
@@ -39,6 +56,7 @@ const Matches = () => {
   const handleReset = () => {
     getData();
     setButtonClicked(null);
+    setSelected("Select Team");
   };
 
   useEffect(() => {
@@ -55,6 +73,27 @@ const Matches = () => {
 
   return (
     <div>
+      <div className={Styles.main2}>
+        <div className={Styles.heading2}>
+          <select name="" id="" value={selected} onChange={handleChange} className={Styles.select}>
+            <option value="all">Select Team</option>
+            <option value="Kenya [KEN]">Kenya</option>
+            <option value="Nepal [NEP]">Nepal</option>
+            <option value="Birmingham Phoenix [BRM]">
+              Birmingham Phoenix Women
+            </option>
+            <option value="Manchester Originals [MO]">
+              Manchester Originals Women
+            </option>
+            <option value="London Spirit [LDN]">London Spirit Women</option>
+            <option value="Oval Invincibles [OVL]">
+              Oval Invincibles Women
+            </option>
+            <option value="Glamorgan [GLAM]">Glamorgan</option>
+            <option value="Worcestershire [WRCS]">Worcestershire</option>
+          </select>
+        </div>
+      </div>
       <div className={Styles.main}>
         <h5
           className={Styles.reset}
@@ -108,7 +147,7 @@ const Matches = () => {
           value="men"
           onClick={(e) => handleClick(e.target.value)}
           style={
-            btnClicked == "men"
+            btnClicked === "men"
               ? { backgroundColor: "rgb(3,169,244)", color: "white" }
               : { backgroundColor: "white" }
           }
@@ -128,7 +167,9 @@ const Matches = () => {
           Women
         </button>
       </div>
+
       <MatchSection1 data={data} title="Top Events" />
+
       <MatchSection2 data={data} title="Nepal tour of Kenya" />
       <MatchSection3 data={data} title="Second Eleven Championship" />
     </div>
