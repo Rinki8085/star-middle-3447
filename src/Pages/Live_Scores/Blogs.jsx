@@ -9,25 +9,25 @@ const Blogs = () => {
   }, []);
 
   const getData = async () => {
-    const res = await fetch(
-      "https://newsapi.org/v2/top-headlines?country=in&category=sports&pageSize=10&apiKey=035971f86c424adeb5ef8a805d1a0297"
-    );
+    const res = await fetch("http://localhost:8080/articles");
     const payload = await res.json();
-    // console.log(payload.articles);
+    // console.log(payload);
 
-    setData(payload.articles);
+    setData(payload);
   };
   return (
     <div className={Styles.main}>
       <div className={Styles.inner}>
         <Box />
       </div>
-      {data.map((el, index) => (
-        <div className={Styles.inner} key={index}>
-          <img src={el.urlToImage} alt="article_image" />
-          <p>{el.description}</p>
-        </div>
-      ))}
+      {data
+        .filter((el, index) => index < 8)
+        .map((el, index) => (
+          <div className={Styles.inner} key={index}>
+            <img src={el.urlToImage} alt="" />
+            <p>{el.description}</p>
+          </div>
+        ))}
     </div>
   );
 };
@@ -38,7 +38,7 @@ export const Box = () => {
   return (
     <div>
       <div>
-        <h3>QUICK LINKS</h3>
+        <h5 className={Styles.heading}>QUICK LINKS</h5>
         <hr />
       </div>
       <div>
@@ -46,7 +46,7 @@ export const Box = () => {
           <iconify-icon
             inline
             icon="mdi:scoreboard"
-            style={{ color: "royalblue" }}
+            style={{ color: "royalblue", marginLeft: "1rem" }}
             width="20"
           ></iconify-icon>
           <span className={Styles.span}>Desktop Scoreboard</span>
@@ -59,7 +59,7 @@ export const Box = () => {
           <iconify-icon
             inline
             icon="eva:refresh-fill"
-            style={{ color: " royalblue" }}
+            style={{ color: " royalblue", marginLeft: "1rem" }}
             width="20"
           ></iconify-icon>
           <span className={Styles.span}>Series Archive</span>
@@ -70,7 +70,7 @@ export const Box = () => {
           <iconify-icon
             inline
             icon="akar-icons:arrow-right"
-            style={{ color: "royalblue" }}
+            style={{ color: "royalblue", marginLeft: "1rem" }}
             width="20"
           ></iconify-icon>
           <span className={Styles.span}>International Calender</span>
