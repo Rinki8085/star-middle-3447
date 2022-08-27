@@ -1,10 +1,10 @@
 import React, { useRef } from 'react';
 import {useState,useEffect} from "react"
 import axios from "axios"
-import "./news.css"
+import "../Feature.css"
 import {Flex,Grid,Stack} from "@chakra-ui/react"
 import { useNavigate } from 'react-router-dom';
-const News=()=>{
+const Writer=()=>{
   let [data,setdata]=useState([])
   let [mostread,setmostread]=useState([])
   let [writers, setwriters]=useState([])
@@ -41,52 +41,19 @@ const News=()=>{
    <div className="newsmain" >
       <Flex justifyContent={"center"} style={{width:"100%",background:"white",height:"56px",marginBottom:"50px"}}>
          <Flex alignItems="center" style={{width:"80%",height:"80%"}}>
-            <h1 style={{fontFamily:"BentonSans-Bold,Arial,Noto Sans,sans-serif",fontSize:"14px",fontWeight:"700"}} >News</h1>
+            <h1 style={{fontFamily:"BentonSans-Bold,Arial,Noto Sans,sans-serif",fontSize:"14px",fontWeight:"700"}} >Features</h1>
             <div style={{width:"2px",height:"24px" ,background:"black",marginLeft:"20px"}}></div>
-            <Flex justifyContent={"space-evenly"} alignItems={"center"} width={"60%"} height="70%" >
-               <p className="hhov" onClick={()=>navigate("/news")}>News home</p>
-               <p className="hhov" onClick={()=>navigate("/news")}>RSS Index  </p>
-               <p className="hhov" onClick={()=>navigate("/news")}>Covid-19</p>
-               <p className="hhov" onClick={()=>navigate("/news/BallTampering")}>Ball-tampering</p>
-               <p className="hhov" onClick={()=>navigate("/news/technologyincricket")}>Technology in cricket</p>
-               <p className="hhov" onClick={()=>navigate("/news/Recism")}>Racism</p>
+            <Flex justifyContent={"space-evenly"} alignItems={"center"} width={"40%"} height="70%" >
+               <p className="hhov" onClick={()=>navigate("/features")}>Features home</p>
+               <p className="hhov" onClick={()=>navigate("/features/Writers")}>Writers  </p>
+               <p className="hhov" onClick={()=>navigate("/features")}>The Cricket Monthly</p>
+               <p className="hhov" onClick={()=>navigate("/features/gallery")}>Photo Galleries</p>
+               
             </Flex>
          </Flex>
       </Flex>
       <Flex  justifyContent={"center"} gap="16px">
-         {bool?<Flex border={"1px solid gray"} flexDirection={"column"} className="Latestnews" backgroundColor={"white"} borderRadius={20} >
-            <Stack height={68.4} >
-               <h1 className="h11">Latest News</h1>
-            </Stack>
-            <div className='latestnewsdiv'>
-              {
-               data.map((elem,index)=>{
-                  if(start<index && index<end){
-                     return(
-                        <>
-                        <Flex marginBottom={2} justifyContent={"space-evenly"} alignItems={"center"}  width={916} height={195.75} >
-                           <Stack>
-                              <img  className="img-responsive"  src={latestnewsimage[index][`image`]} />
-                           </Stack>
-                           <div className='ddiv'>
-                              <h1 className="title">{elem.Title}</h1>
-                              <p >{elem.dstextcompacts}</p>
-                              <p><Flex><p style={{fontSize:"12px"}} >{elem.dstextcompactxs}</p>   <p style={{marginLeft:"20px",fontSize:"12px"}} >{elem.dstextcompactxs1}</p></Flex>  </p>
-   
-                           </div>
-                          
-                         
-                        </Flex>
-                        <hr></hr>
-                        </>
-                     )
-                  }
-                  
-               })
-              }
-            </div>
-            
-         </Flex>:
+         
          <Flex border={"1px solid gray"} flexDirection={"column"} className="Latestnews" backgroundColor={"white"} borderRadius={20} >
             <Stack height={68.4} >
                <h1 className="h11">ESPNcricinfo Writers Index</h1>
@@ -99,15 +66,15 @@ const News=()=>{
                         <img src={elem.Image} style={{width:"62px",height:"64px",borderRadius:"100%"}}/>
                      <div  style={{width:"60%"}}>
                         <h1 className={"hhov"} style={{fontSize:"16px",fontFamily:"BentonSans-Bold,Arial,Noto Sans,sans-serif",fontWeight:"700"}}>{elem.Title}</h1>
-                        <p style={{fontSize:"16px",fontFamily:"BentonSans-Bold,Arial,Noto Sans,sans-serif",color:"#48494A"}}>{elem.Field}</p>
-                        <p style={{fontSize:"14px",fontFamily:"BentonSans-Bold,Arial,Noto Sans,sans-serif",color:"#03A9F4"}} >{elem.dstexttightm}</p>
+                        <p style={{fontSize:"16px",fontFamily:"BentonSans-Bold,Arial,Noto Sans,sans-serif",color:"#48494A",lineHeight:"18px"}}>{elem.Field}</p>
+                        <p style={{fontSize:"14px",fontFamily:"BentonSans-Bold,Arial,Noto Sans,sans-serif",color:"#03A9F4",lineHeight:"0px"}} >{elem.dstexttightm}</p>
                      </div>
                      
                      </Flex>)
                   })
                }
             </Grid>
-         </Flex>}
+         </Flex>
          <div className="other">
             <div className="MostRead">
                <div className={"MostRead1"}>
@@ -137,7 +104,7 @@ const News=()=>{
             {bool?<div className="Writers">
                      <Flex className={"MostRead1"} alignItems={"center"} justifyContent={"space-between"}>
                         <h2 className='h11' style={{fontSize:"14px",paddingTop:"8px"}}  >Writers</h2>
-                        <a href='#' onClick={()=>{setbool(false);navigate("/features/Writers")}}    style={{color:"#03A9F4",marginRight:"10px"}}>see all</a>
+                        <a href='#' onClick={()=>setbool(false)}    style={{color:"#03A9F4",marginRight:"10px"}}>see all</a>
                      </Flex>
                      <hr></hr>
                      <div>
@@ -175,4 +142,4 @@ const News=()=>{
    )
 }
 
-export default News;
+export default Writer;
