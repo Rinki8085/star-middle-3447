@@ -11,6 +11,11 @@ import Navbar from '../Component/HomePage/Navbar/navbar';
 import Homepage from '../Component/HomePage/Homepage';
 import Footermain from '../Component/HomePage/Footermain/footermain';
 
+import TopNavbar from "../Component/HomePage/TopNavbar/TopNavbar"
+import Navbar from '../Component/HomePage/Navbar/navbar';
+import Homepage from '../Component/HomePage/Homepage';
+import Footermain from '../Component/HomePage/Footermain/footermain';
+
 const MainRoutes = ()=>{
    return(
       <Routes>
