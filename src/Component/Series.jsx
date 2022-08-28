@@ -39,7 +39,7 @@ const Series = () => {
         <Box className={styles.content} >
           <Box>
             <Text fontSize="lg" fontWeight="bold" style={{marginBottom:"15px"}}>INTERNATIONAL TOURS</Text>
-            <div style={{lineHeight:"10px"}}>
+            <div style={{lineHeight:"30px"}}>
             <h5><NavLink to="/Series_singlematch">England v South Africa</NavLink> </h5>
             <h5>Zimbabwe v India</h5>
             <h5>West Indies v New Zealand</h5>

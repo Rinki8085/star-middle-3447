@@ -70,7 +70,11 @@ const Future = () => {
             >
               INTERNATIONAL TOURS
             </Text>
-            <div style={{ lineHeight: "10px" }}>
+
+            
+
+            <div style={{ lineHeight: "30px" }}>
+
               <h5>Zimbabwe v Bangladesh</h5>
               <h5>Ireland v Afghanistan</h5>
               <h5>West Indies v India</h5>

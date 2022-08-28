@@ -67,6 +67,7 @@ const Series_singlematch = ({ runner, wicketer }) => {
             <img src={rightup} />
             {/* <Wicketer wicketer={wicketer} /> */}
             <Wicketer wicketer={wicketer} />
+            {/* <Wicketer wicketer={wicketer} /> */}
 
             {/* <TeamBlogs/> */}
           </div>

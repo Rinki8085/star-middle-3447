@@ -36,7 +36,7 @@ const Recently = () => {
         <Box className={styles.content}>
           <Box>
             <Text fontSize="lg" fontWeight="bold" style={{marginBottom:"15px"}}>INTERNATIONAL TOURS</Text>
-            <div style={{lineHeight:"15px"}}>
+            <div style={{lineHeight:"30px"}}>
             <h5>Zimbabwe v Bangladesh</h5>
             
             <h5>Ireland v Afghanistan</h5>

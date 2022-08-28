@@ -1,5 +1,10 @@
 import React from 'react';
 import {Route, Routes} from 'react-router-dom';
+import Future from '../Component/Future';
+import Recently from '../Component/Recently';
+import Series from '../Component/Series';
+import Series_singlematch from '../Component/Series_singlematch';
+import LiveScore from './Live_Scores/LiveScore';
 import CountryTeam from './Teams/CountryTeam';
 import Teams from './Teams/teams';
 import Series from '../Component/Series';
@@ -10,7 +15,6 @@ import Series_singlematch from "../Component/Series_singlematch"
 import Navbar from '../Component/HomePage/Navbar/navbar';
 import Homepage from '../Component/HomePage/Homepage';
 import Footermain from '../Component/HomePage/Footermain/footermain';
-
 import TopNavbar from "../Component/HomePage/TopNavbar/TopNavbar"
 import News from './News/news';
 import BallTampering from './News/subnews/BallTampering';
@@ -41,6 +45,8 @@ const MainRoutes = ()=>{
          <Route path="/features" element={<Feature/>} />
          <Route path="/features/gallery" element={<Gallery/>} />
          <Route path='/features/Writers' element={<Writer/>}/>
+         <Route path="recently" element={<Recently/> }/>
+         {/* <Route path="Series_singlematch" element={<Series_singlematch />} /> */}
       </Routes>
    )
 }
