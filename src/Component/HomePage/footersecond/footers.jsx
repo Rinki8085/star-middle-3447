@@ -8,7 +8,7 @@ const Footers=()=>{
             <Text>Terms of Use | Privacy Policy | Interest-Based Ads | Addendum to the Global Privacy Policy | Feedback</Text>
         </div>
         <div className="right">
-        © 2022 ESPN Sports Media Ltd. All rights reserved
+        <Text>© 2022 ESPN Sports Media Ltd. All rights reserved</Text>
         </div>
       </div>
    )

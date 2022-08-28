@@ -1,12 +1,13 @@
 import React from "react";
-import Navbar from "../navbar";
+import Navbar from "./Navbar/navbar";
 import CBlog from "./Blog/centerBlog/centerBlog";
 import LSBar from "./Blog/LSidebar/lSidebar";
 import RSBar from "./Blog/RSidebar/rSbar";
 import Footermain from "./Footermain/footermain";
 import Footers from "./footersecond/footers";
 import TopNavbar from "./TopNavbar/TopNavbar";
-
+import "./Navbar/navbar.css"
+import "./homePage.css"
 
 const Homepage=() =>{
   
@@ -14,10 +15,10 @@ const Homepage=() =>{
         <div>
           <TopNavbar />
           <Navbar />
-          <div>
-            <RSBar/>
+          <div className="blogPost">
+            <LSBar/>
             <CBlog/>
-            <LSBar />
+            <RSBar />
           </div>
           <Footermain />
           <Footers />
