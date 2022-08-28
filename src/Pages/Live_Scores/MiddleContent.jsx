@@ -1,5 +1,4 @@
 import React from "react";
-import Filter from "./Filter";
 import Matches from "./Matches";
 import Styles from "./MiddleContent.module.css";
 import Timeline from "./Timeline";
@@ -8,7 +7,6 @@ const MiddleContent = () => {
   return (
     <div className={Styles.main}>
       <Timeline />
-      <Filter />
       <Matches/>
     </div>
   );

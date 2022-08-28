@@ -1,4 +1,9 @@
 
+import {Routes, Route} from "react-router-dom"
+import Future from './Component/Future';
+import Recently from "./Component/Recently";
+import Series from './Component/Series';
+
 
 import "./App.css";
 import {useSelector} from 'react-redux';
@@ -9,14 +14,15 @@ import logo from './logo.svg';
 
 
 
+
 function App() {
 
   return (
+
     <div className="App">
 
 
       <MainRoutes/>
-
     </div>
   );
 }
