@@ -3,10 +3,13 @@ import { Heading, Box, Text } from "@chakra-ui/react";
 import { ArrowDownIcon } from "@chakra-ui/icons";
 import styles from "./Series.module.css";
 import { NavLink } from "react-router-dom";
+import Navbar from "./HomePage/Navbar/navbar";
+import Footers from "./HomePage/footersecond/footers";
 
 const Series = () => {
   return (
     <div className={styles.container}>
+      <Navbar/>
       <Heading as="h2" size="md" noOfLines={1} className={styles.heading}>
         FIXTURES AND RESULTS
       </Heading>
@@ -200,6 +203,7 @@ const Series = () => {
           </Box>
         </Box>
       </Box>
+      <Footers/>
     </div>
   );
 };

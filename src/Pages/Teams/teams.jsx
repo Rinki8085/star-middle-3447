@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom';
 import {getInternationalTeamData, getWomenTeamData, getIplTeamData} from '../../Redux/action';
 import Navbar from '../../Component/HomePage/Navbar/navbar';
 import Footers from '../../Component/HomePage/footersecond/footers';
+import TopNavbar from '../../Component/HomePage/TopNavbar/TopNavbar';
 
 const Teams=()=>{
    const internationalTeam = useSelector((state)=>state.internationalTeam);
@@ -20,6 +21,7 @@ const Teams=()=>{
 
    return(
       <div>
+         <TopNavbar/>
          <Navbar/>
          <div style={{paddingLeft:"20px",paddingRight:"20px"}}>
             <div>

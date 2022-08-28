@@ -5,6 +5,9 @@ import RightSideBar from './RightSideBar';
 import {useDispatch, useSelector} from 'react-redux';
 import {getInternationalTeamData, getWomenTeamData, getIplTeamData} from '../../Redux/action';
 import {useParams} from 'react-router-dom';
+import TopNavbar from '../../Component/HomePage/TopNavbar/TopNavbar';
+import Navbar from '../../Component/HomePage/Navbar/navbar';
+import Footers from '../../Component/HomePage/footersecond/footers';
 
 const CountryTeam = ()=>{
    const internationalTeam = useSelector((state)=>state.internationalTeam);
@@ -32,6 +35,8 @@ const CountryTeam = ()=>{
 
    return(
       <div>
+         <TopNavbar/>
+         <Navbar/>
          <div>
             <div style={{display:"flex",padding:"18px"}}>
                <div style={{display:"flex",flexDirection:'row',gap:'10px',marginRight:'20px'}}>
@@ -64,6 +69,7 @@ const CountryTeam = ()=>{
             </>
            )}
          </div>
+         <Footers/>
       </div>
    )
 }
