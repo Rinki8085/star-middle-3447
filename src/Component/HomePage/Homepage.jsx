@@ -7,6 +7,7 @@ import Footermain from "./Footermain/footermain";
 import Footers from "./footersecond/footers";
 import TopNavbar from "./TopNavbar/TopNavbar";
 import "./Navbar/navbar.css"
+import "./homePage.css"
 
 const Homepage=() =>{
   
@@ -15,9 +16,9 @@ const Homepage=() =>{
           <TopNavbar />
           <Navbar />
           <div className="blogPost">
-            <RSBar/>
+            <LSBar/>
             <CBlog/>
-            <LSBar />
+            <RSBar />
           </div>
           <Footermain />
           <Footers />

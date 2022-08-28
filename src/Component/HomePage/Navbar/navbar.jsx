@@ -1,42 +1,64 @@
-import React from 'react'
+import React from "react"
 import { Link as RouteLink } from 'react-router-dom';
 import { Box, Flex, Image, Text, AspectRatio, Link, Img } from "@chakra-ui/react";
 
-
+import "./navbar.css"
 
 
  const Navbar = () => {
 
     return (
-      <div style={{'backgroundColor':"skyblue","height":"45px"}}>
-         <RouteLink to="/">Home</RouteLink>
-        <RouteLink to="/livescore">Live Score</RouteLink>
-        <RouteLink to="/Series">Series</RouteLink>
-        <RouteLink to="/Teams">Teams</RouteLink>
-        <RouteLink to="/News">News</RouteLink>
-        <RouteLink to="/Features">Features</RouteLink>
-        <RouteLink to="/">Videos</RouteLink>
-        <RouteLink to="/">Stats</RouteLink> 
+      <div style={{'backgroundColor':"#03a9f4 ","height":"45px","display":"flex","paddingLeft":"10%"}}>
+        <div style={{}}>
+          <RouteLink to={"/"} >
+            <img src="https://wassets.hscicdn.com/static/images/logo.png" alt="" style={{"width":"150px"}} className="homeimage"/>
+          </RouteLink>
+        </div>
+
+        <div style={{"paddingTop":"9px","textDecoration":"none","marginRight":"10px"}}>
+          <RouteLink to="/livescore"><Text className="flexdiv">Live Score</Text></RouteLink>
+        </div>
+        
+        <div style={{"paddingTop":"9px","textDecoration":"none","marginRight":"10px"}}>
+          <RouteLink to="/Series"><Text className="flexdiv">Series</Text></RouteLink>
+        </div>
+
+        <div style={{"paddingTop":"9px","textDecoration":"none","marginRight":"10px"}}>
+          <RouteLink to="/Teams"><Text className="flexdiv">Teams</Text></RouteLink>
+        </div>
+        
+        <div style={{"paddingTop":"9px","textDecoration":"none","marginRight":"10px"}}>
+        <RouteLink  to="/news"><Text className="flexdiv">News</Text></RouteLink>
+        </div>
+
+        <div style={{"paddingTop":"9px","textDecoration":"none","marginRight":"10px"}}>
+          <RouteLink to="/features"><Text className="flexdiv">Features</Text></RouteLink>
+        </div>
+
+        <div style={{"paddingTop":"9px","textDecoration":"none","marginRight":"10px"}}>
+          <RouteLink to="/Videos"><Text className="flexdiv">Videos</Text></RouteLink>
+        </div>
+
+        <div style={{"paddingTop":"9px","textDecoration":"none","marginRight":"10px"}}>
+          <RouteLink to="/Stats"><Text className="flexdiv">Stats</Text></RouteLink>
+        </div>
       </div>
-//          <Flex width='70%' margin='auto' >
+)}
+    export default Navbar  
+    //     <Flex width='70%' margin='auto' >
 
-//         <Box fontFamily="Roboto" className="dropdown">
-//             <RouteRouteLink to={"/"} ><Box className="dropbtn"><Img src="https://wassets.hscicdn.com/static/images/logo.png"/></Box></RouteRouteLink>
-//             {/* <Box className="dropdown-content" > </Box> */}
-//         </Box>
-//         <Spacer/>  
-// {/* 2      */}
-//     <Box className="dropdown">
-//       <RouteRouteLink to={"/livescore"} > <Box fontFamily="Roboto" className="dropbtn">Live Score</Box></RouteRouteLink>
-//     <Box className="dropdown-content" marginLeft='-60px' > 
+    //      <Spacer/>  
 
-//         <Box width='1000px' >
+    //  <Box className="dropdown">
+    //    <RouteRouteLink to={"/livescore"} > <Box fontFamily="Roboto" className="dropbtn">Live Score</Box></RouteRouteLink>
+    //  <Box className="dropdown-content" marginLeft='-60px' > 
+    //      <Box width='1000px' >
 
-//             <Box  width='800px'  >    
+    //          <Box  width='800px'  >    
 
-//                 <Flex>
-//                 <VStack 
-//                 fontFamily="Roboto" 
+    //              <Flex>
+    //              <VStack  
+    //            fontFamily="Roboto" 
 //                 display='flex' flexDirection='column' 
 //                 justifyContent='start' 
 //                 alignItems='flex-start' 
@@ -51,7 +73,7 @@ import { Box, Flex, Image, Text, AspectRatio, Link, Img } from "@chakra-ui/react
 //                    <Text>Season View</Text>
 //                    <Text>International Calender</Text>
 //                    <Text>Desktop Scoreboard</Text>
-//                 </VStack>
+//                 </VStack> 
 //                 <Spacer/>
 //                 </Flex>
 //                 </Box>
@@ -329,26 +351,19 @@ import { Box, Flex, Image, Text, AspectRatio, Link, Img } from "@chakra-ui/react
 //                 </Box>   
 //     <Box fontFamily="Roboto" className="dropdown">
 //             <RouteRouteLink to={"/"} ><Box className="dropbtn">Fantasy </Box></RouteRouteLink>
-//             {/* <Box className="dropdown-content" > </Box> */}
+//             
 //         </Box>
 //         <Spacer/>
 //         <Box fontFamily="Roboto" className="dropdown">
 //             <RouteRouteLink to={"/"} ><Box className="dropbtn">Edition In </Box></RouteRouteLink>
-//             {/* <Box className="dropdown-content" > </Box> */}
+//             
 //         </Box>
 //         <Spacer/>
 //         <Box fontFamily="Roboto" className="dropdown">
 //             <RouteRouteLink to={"/"} ><Box className="dropbtn">ESPNcricinfo </Box></RouteRouteLink>
-//             {/* <Box className="dropdown-content" > </Box> */}
+//             
 //         </Box>
 //         <Spacer/>                                 
 //                 </Flex>
                 
-//       </div>
-    
-
-    )
-
-}
-export default Navbar
-
+   
