@@ -1,10 +1,14 @@
 .footers{
     display: flex;
-    /* border: 1px solid red; */
-    color: grey;
+    color: #2B2C2D;
     background-color: #edeef0;
     justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
-   
+    margin-bottom:-10px;
+    font-size:14px;
 }
+.right{
+    padding-top:10px;
+}
+

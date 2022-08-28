@@ -29,7 +29,7 @@ const Teams=()=>{
             </div>
             <div>
                   <TeamWrapper>
-                     <div style={{padding:"15px",fontWeight:"700"}}>
+                     <div style={{paddingLeft:"15px",fontWeight:"700"}}>
                         <h3>POPULAR INTERNATIONAL TEAMS</h3>
                      </div>
                      <InternationTeam>
@@ -48,7 +48,7 @@ const Teams=()=>{
                   </TeamWrapper>
                   <br/>
                   <TeamWrapper>
-                     <div style={{padding:"15px",fontWeight:"700"}}>
+                     <div style={{paddingLeft:"15px",fontWeight:"700"}}>
                         <h3>POPULAR WOMEN'S TEAMS</h3>
                      </div>
                      <InternationTeam>
@@ -67,7 +67,7 @@ const Teams=()=>{
                   </TeamWrapper>
                   <br/>
                   <TeamWrapper>
-                     <div style={{padding:"15px",fontWeight:"700"}}>
+                     <div style={{paddingLeft:"15px",fontWeight:"700"}}>
                         <h3>IPL 2022 TEAMS</h3>
                      </div>
                      <InternationTeam>
