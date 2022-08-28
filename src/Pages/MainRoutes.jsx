@@ -26,7 +26,7 @@ import Writer from './Feature/Features/Writers';
 const MainRoutes = ()=>{
    return(
       <Routes>
-         <Route path='/' element={<><Homepage/></>}/>
+         <Route path='/' element={<Homepage/>}/>
          <Route path='/Teams' element={<Teams/>} />
          <Route path='/Teams/:name' element={<CountryTeam/>} />
          <Route path="/Series" element={<Series/>}/>
