@@ -6,9 +6,14 @@ import styles from "./Series.module.css";
 import Blogs from "../Pages/Live_Scores/Blogs";
 import SeriesBlogs from "./SeriesBlog";
 import SeriesBlog from "./SeriesBlog";
+import Navbar from "./HomePage/Navbar/navbar";
+import Footers from "./HomePage/footersecond/footers";
+
 const Series = () => {
   return (
-    <div>
+    <div className={styles.container}>
+      <Navbar/>
+
       <Heading as="h2" size="md" noOfLines={1} className={styles.heading}>
         FIXTURES AND RESULTS
       </Heading>
@@ -135,6 +140,7 @@ const Series = () => {
         </Box>
         
       </Box>
+      <Footers/>
     </div>
   );
 };

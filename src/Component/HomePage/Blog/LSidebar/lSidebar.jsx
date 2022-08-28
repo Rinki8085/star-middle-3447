@@ -138,7 +138,7 @@ const data5 = [
           <div>
           {data1.map((item)=>
          
-         <p className="SCp"><b style={{color:"skyblue"}}>>  </b><Routelink to={"/"} className="Subele">{item.name}</Routelink> </p>
+         <p className="SCp"><b style={{color:"skyblue"}}>&gt;  </b><Routelink to={"/"} className="Subele">{item.name}</Routelink> </p>
       
           )}
           </div>
@@ -149,7 +149,7 @@ const data5 = [
           <div>
           {data2.map((item)=>
          
-         <p className="SCp"><b style={{color:"skyblue"}}>>  </b><Routelink to={"/"} className="Subele">{item.name}</Routelink></p>
+         <p className="SCp"><b style={{color:"skyblue"}}>&gt;  </b><Routelink to={"/"} className="Subele">{item.name}</Routelink></p>
       
           )}
           </div>
@@ -160,7 +160,7 @@ const data5 = [
           <div>
           {data3.map((item)=>
          
-         <p className="SCp"><b style={{color:"skyblue"}}>>  </b><Routelink to={"/"} className="Subele">{item.name}</Routelink></p>
+         <p className="SCp"><b style={{color:"skyblue"}}>&gt;  </b><Routelink to={"/"} className="Subele">{item.name}</Routelink></p>
       
           )}
           </div>
@@ -171,7 +171,7 @@ const data5 = [
           <div>
           {data4.map((item)=>
          
-         <p className="SCp"><b style={{color:"skyblue"}}>>  </b><Routelink to={"/"} className="Subele">{item.name}</Routelink></p>
+         <p className="SCp"><b style={{color:"skyblue"}}>&gt;  </b><Routelink to={"/"} className="Subele">{item.name}</Routelink></p>
       
           )}
           </div>
@@ -182,7 +182,7 @@ const data5 = [
           <div>
           {data5.map((item)=>
          
-         <p className="SCp"><b style={{color:"skyblue"}}>>  </b><Routelink to={"/"} className="Subele">{item.name}</Routelink></p>
+         <p className="SCp"><b style={{color:"skyblue"}}>&gt;  </b><Routelink to={"/"} className="Subele">{item.name}</Routelink></p>
       
           )}
           </div>
