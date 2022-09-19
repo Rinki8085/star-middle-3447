@@ -15,7 +15,7 @@ import "./centerBlog.css"
                   <h1>Kohli: 'I came to realise I awas trying to fake my intensity recently'</h1>
                   <p>Reading for a comeback against Pakistan on Sunday , Kohli says that he is "feeling light" sfter his break</p>
                 </div>
-                <div className="LBIBP">
+                <div className="LBIBP" style={{paddingLeft:"10px"}}>
                   <div className="LBIBPIMG">
                      <Img className="DV" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_720/esci/media/motion/2022/0827/dm_220827_INET_CRIC_asiacup_kohli-pkg_nonbranded_global/dm_220827_INET_CRIC_asiacup_kohli-pkg_nonbranded_global.jpg"/>
                   </div>

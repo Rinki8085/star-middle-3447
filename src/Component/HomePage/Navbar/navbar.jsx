@@ -8,39 +8,39 @@ import "./navbar.css"
  const Navbar = () => {
 
     return (
-      <div style={{'backgroundColor':"#03a9f4 ","height":"45px","display":"flex","paddingLeft":"10%"}}>
+      <div style={{backgroundColor:"#03a9f4 ",height:"45px",display:"flex",paddingLeft:"10%"}}>
         <div style={{}}>
-          <RouteLink to={"/"} >
+          <RouteLink to={"/"}  >
             <img src="https://wassets.hscicdn.com/static/images/logo.png" alt="" style={{"width":"150px"}} className="homeimage"/>
           </RouteLink>
         </div>
 
-        <div style={{"paddingTop":"9px","textDecoration":"none","marginRight":"10px"}}>
-          <RouteLink to="/livescore"><Text className="flexdiv">Live Score</Text></RouteLink>
+        <div style={{paddingTop:"9px",marginRight:"10px"}}>
+          <RouteLink to="/livescore" style={{textDecoration:"none"}}><Text className="flexdiv">Live Score</Text></RouteLink>
         </div>
         
-        <div style={{"paddingTop":"9px","textDecoration":"none","marginRight":"10px"}}>
-          <RouteLink to="/Series"><Text className="flexdiv">Series</Text></RouteLink>
+        <div style={{paddingTop:"9px",marginRight:"10px"}}>
+          <RouteLink to="/Series" style={{textDecoration:"none"}}><Text className="flexdiv">Series</Text></RouteLink>
         </div>
 
-        <div style={{"paddingTop":"9px","textDecoration":"none","marginRight":"10px"}}>
-          <RouteLink to="/Teams"><Text className="flexdiv">Teams</Text></RouteLink>
+        <div style={{paddingTop:"9px",marginRight:"10px"}}>
+          <RouteLink to="/Teams" style={{textDecoration:"none"}}><Text className="flexdiv">Teams</Text></RouteLink>
         </div>
         
-        <div style={{"paddingTop":"9px","textDecoration":"none","marginRight":"10px"}}>
-        <RouteLink  to="/news"><Text className="flexdiv">News</Text></RouteLink>
+        <div style={{paddingTop:"9px",marginRight:"10px"}}>
+        <RouteLink  to="/news" style={{textDecoration:"none"}}><Text className="flexdiv">News</Text></RouteLink>
         </div>
 
-        <div style={{"paddingTop":"9px","textDecoration":"none","marginRight":"10px"}}>
-          <RouteLink to="/features"><Text className="flexdiv">Features</Text></RouteLink>
+        <div style={{paddingTop:"9px",marginRight:"10px"}}>
+          <RouteLink to="/features" style={{textDecoration:"none"}}><Text className="flexdiv">Features</Text></RouteLink>
         </div>
 
-        <div style={{"paddingTop":"9px","textDecoration":"none","marginRight":"10px"}}>
-          <RouteLink to="/Videos"><Text className="flexdiv">Videos</Text></RouteLink>
+        <div style={{paddingTop:"9px",marginRight:"10px"}}>
+          <RouteLink to="/Videos" style={{textDecoration:"none"}}><Text className="flexdiv">Videos</Text></RouteLink>
         </div>
 
-        <div style={{"paddingTop":"9px","textDecoration":"none","marginRight":"10px"}}>
-          <RouteLink to="/Stats"><Text className="flexdiv">Stats</Text></RouteLink>
+        <div style={{paddingTop:"9px",marginRight:"10px"}}>
+          <RouteLink to="/Stats" style={{textDecoration:"none"}}><Text className="flexdiv">Stats</Text></RouteLink>
         </div>
       </div>
 )}

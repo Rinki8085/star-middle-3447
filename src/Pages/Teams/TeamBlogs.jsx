@@ -34,7 +34,7 @@ const TeamBlogs = ()=>{
       <div className={styles.topRunProvider}>
         {data.map((item)=>
          <div style={{padding:'20px',borderBottom:'1px solid lightgrey'}}>
-            <img style={{borderRadius:"10px"}} src={item.image} alt='imGE' />
+            <img style={{borderRadius:"10px"}} width="255px" src={item.image} alt='imGE' />
             <br/>
             <p>{item.title}</p>
          </div>

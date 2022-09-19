@@ -14,8 +14,7 @@ import Technologyincricket from './News/subnews/Technologyincricket';
 import Feature from './Feature/Features/Feature';
 import Gallery from './Feature/Features/Gallery';
 import Writer from './Feature/Features/Writers';
-
-
+import Series_singlematch from '../Component/Series_singlematch';
 
 
 const MainRoutes = ()=>{
@@ -25,6 +24,7 @@ const MainRoutes = ()=>{
          <Route path='/Teams' element={<Teams/>} />
          <Route path='/Teams/:name' element={<CountryTeam/>} />
          <Route path="/Series" element={<Series/>}/>
+         <Route path='/Series_singlematch' element={<Series_singlematch/>} />
          <Route path="/Future_matches"  element={<Future/>}/>
          <Route path="/recently" element={<Recently/> }/>
          <Route path="/livescore" element={<LiveScore />} />

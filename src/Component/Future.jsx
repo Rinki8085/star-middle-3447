@@ -4,24 +4,24 @@ import { Heading, Box, Text } from "@chakra-ui/react";
 import styles from "./Series.module.css";
 import Blogs from "../Pages/Live_Scores/Blogs";
 import SeriesBlog from "./SeriesBlog";
+import Navbar from "./HomePage/Navbar/navbar";
+import Footers from "./HomePage/footersecond/footers";
+import TopNavbar from "./HomePage/TopNavbar/TopNavbar";
+
 const Future = () => {
   return (
     <div>
+      <TopNavbar/>
+      <Navbar/>
       <Heading as="h2" size="md" noOfLines={1} className={styles.heading}>
         FIXTURES AND RESULTS
       </Heading>
 
       <Box className={styles.outerbox}>
         <img
-          src="https://tpc.googlesyndication.com/daca_images/simgad/532420073875604930"
-          style={{ paddingLeft: "125px", paddingTop: "20px" }}
+          src="https://tpc.googlesyndication.com/daca_images/simgad/532420073875604930" width='93.5%'
+          style={{ paddingLeft: "70px", paddingTop: "20px" }}
         />
-
-        <Box
-          style={{ marginLeft: "75%", marginTop: "10px", marginRight: "20px" }}
-        >
-          <img src="https://tpc.googlesyndication.com/simgad/2618765116939835931?" />
-        </Box>
         <div className={styles.blogbox}>
           <SeriesBlog />
         </div>
@@ -71,21 +71,21 @@ const Future = () => {
               INTERNATIONAL TOURS
             </Text>
             <div style={{ lineHeight: "10px" }}>
-              <h5>Zimbabwe v Bangladesh</h5>
-              <h5>Ireland v Afghanistan</h5>
-              <h5>West Indies v India</h5>
-              <h5>Sri Lanka v Pakistan</h5>
-              <h5>Netherlands v New Zealand</h5>
-              <h5>SA-W in England</h5>
-              <h5>Scotland v New Zealand</h5>
+              <h4>Zimbabwe v Bangladesh</h4>
+              <h4>Ireland v Afghanistan</h4>
+              <h4>West Indies v India</h4>
+              <h4>Sri Lanka v Pakistan</h4>
+              <h4>Netherlands v New Zealand</h4>
+              <h4>SA-W in England</h4>
+              <h4>Scotland v New Zealand</h4>
 
-              <h5>West Indies tour of Australia, Oct 2022</h5>
-              <h5>England tour of Australia, Oct 2022</h5>
-              <h5>India tour of New Zealand, Nov 2022</h5>
-              <h5>South Africa tour of Australia, Dec 2022</h5>
-              <h5>Bangladesh Women tour of New Zealand, Dec 2022</h5>
-              <h5>England tour of New Zealand, Feb 2023</h5>
-              <h5>Sri Lanka tour of New Zealand, Mar 2023</h5>
+              <h4>West Indies tour of Australia, Oct 2022</h4>
+              <h4>England tour of Australia, Oct 2022</h4>
+              <h4>India tour of New Zealand, Nov 2022</h4>
+              <h4>South Africa tour of Australia, Dec 2022</h4>
+              <h4>Bangladesh Women tour of New Zealand, Dec 2022</h4>
+              <h4>England tour of New Zealand, Feb 2023</h4>
+              <h4>Sri Lanka tour of New Zealand, Mar 2023</h4>
             </div>
 
             <Text
@@ -96,11 +96,13 @@ const Future = () => {
               INTERNATIONAL TOURNAMENTS
             </Text>
             <div style={{ lineHeight: "30px" }}>
-              <h5>ICC Men's T20 World Cup</h5>
+              <h4>ICC Men's T20 World Cup</h4>
             </div>
           </Box>
         </Box>
       </Box>
+      <br/>
+      <Footers/>
     </div>
   );
 };

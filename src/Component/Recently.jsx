@@ -4,21 +4,24 @@ import { Heading, Box, Text } from "@chakra-ui/react";
 import { ArrowDownIcon} from '@chakra-ui/icons'
 import styles from "./Series.module.css";
 import SeriesBlog from "./SeriesBlog";
+import Navbar from "./HomePage/Navbar/navbar";
+import Footers from "./HomePage/footersecond/footers";
+import TopNavbar from "./HomePage/TopNavbar/TopNavbar";
+
 const Recently = () => {
   return (
     <div>
+      <TopNavbar/>
+      <Navbar/>
       <Heading as="h2" size="md" noOfLines={1} className={styles.heading}>
         FIXTURES AND RESULTS
       </Heading>
       
       <Box className={styles.outerbox}>
-          <img src="https://tpc.googlesyndication.com/simgad/12856453960124024269?" style={{paddingLeft:"125px" , marginBottom:"-40px", paddingTop:"20px"}} />
+          <img src="https://tpc.googlesyndication.com/simgad/12856453960124024269?" width='93%' style={{paddingLeft:"75px" , marginBottom:"-40px", paddingTop:"20px"}} />
         
-        <Box style={{marginLeft:"75%" , marginTop:"10px" , marginRight:"20px", }}>
-            <img src="https://tpc.googlesyndication.com/simgad/2618765116939835931?"/>
-            
-        </Box>
-        <div className={styles.blogbox}>
+  
+        <div className={styles.blogbox} style={{marginTop:'50px'}}>
         <SeriesBlog />
         </div>
         <Box className={styles.heading2} style={{marginTop:"-500px"}}>
@@ -37,38 +40,38 @@ const Recently = () => {
           <Box>
             <Text fontSize="lg" fontWeight="bold" style={{marginBottom:"15px"}}>INTERNATIONAL TOURS</Text>
             <div style={{lineHeight:"15px"}}>
-            <h5>Zimbabwe v Bangladesh</h5>
+            <h4>Zimbabwe v Bangladesh</h4>
             
-            <h5>Ireland v Afghanistan</h5>
-            <h5>West Indies v India</h5>
-            <h5> Sri Lanka v Pakistan</h5>
-            <h5> Netherlands v New Zealand</h5>
-            <h5> SA-W in England</h5>
-            <h5> Scotland v New Zealand</h5>
-            <h5> IRE Tri-Series (Women)</h5>
-            <h5> Ireland v New Zealand</h5>
-            <h5>England v India</h5>
-            <h5> West Indies v Bangladesh</h5>
-            <h5> Sri Lanka v Australia</h5>
-            <h5>IND-W in Sri Lanka</h5>
-            <h5>Ireland v India</h5>
-            <h5>England v India (5th Test)</h5>
-            <h5> Netherlands v England</h5>
-            <h5> England v New Zealand</h5>
-            <h5> AUS-A in Sri Lanka</h5>
-            <h5> India v South Africa</h5>
+            <h4>Ireland v Afghanistan</h4>
+            <h4>West Indies v India</h4>
+            <h4> Sri Lanka v Pakistan</h4>
+            <h4> Netherlands v New Zealand</h4>
+            <h4> SA-W in England</h4>
+            <h4> Scotland v New Zealand</h4>
+            <h4> IRE Tri-Series (Women)</h4>
+            <h4> Ireland v New Zealand</h4>
+            <h4>England v India</h4>
+            <h4> West Indies v Bangladesh</h4>
+            <h4> Sri Lanka v Australia</h4>
+            <h4>IND-W in Sri Lanka</h4>
+            <h4>Ireland v India</h4>
+            <h4>England v India (5th Test)</h4>
+            <h4> Netherlands v England</h4>
+            <h4> England v New Zealand</h4>
+            <h4> AUS-A in Sri Lanka</h4>
+            <h4> India v South Africa</h4>
             
             </div>
 
             <Text fontSize="lg" fontWeight="bold" style={{marginBottom:"15px" ,marginTop:"30px"}}>ASSOCIATE CRICKET</Text>
             <div style={{lineHeight:"30px"}}>
-            <h5>ICC Men's T20 World Cup</h5>
-            <h5>Canada v Nepal</h5>
-            <h5>Austria v Hungary</h5>
-            <h5>Sofia T20</h5>
-            <h5>Finland v Estonia</h5>
-            <h5>Bulgaria v Serbia</h5>
-            <h5>Namibia Tri-Series</h5>
+            <h4>ICC Men's T20 World Cup</h4>
+            <h4>Canada v Nepal</h4>
+            <h4>Austria v Hungary</h4>
+            <h4>Sofia T20</h4>
+            <h4>Finland v Estonia</h4>
+            <h4>Bulgaria v Serbia</h4>
+            <h4>Namibia Tri-Series</h4>
             
             </div>
             
@@ -77,6 +80,8 @@ const Recently = () => {
             </Box>
         
       </Box>
+      <br/>
+      <Footers/>
     </div>
   );
 };
