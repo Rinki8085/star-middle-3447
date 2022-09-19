@@ -2,7 +2,7 @@
 # Getting Started with Create React App
 ### https://star-middle-3447-espncricinfo-clone.netlify.app/
 
-=======
+
 ## espnCricinfo Clone
 
 espnCricinfo is website where you can get update of live matches, upcoming matches and also the past matches. 
