@@ -10,8 +10,12 @@ import Wicketer from "../Pages/Teams/wicketer";
 import { getArticlesData } from "../Redux/action";
 import SeriesBlog from "./SeriesBlog";
 import left from "./image/left.png"
-import rightup from "./image/Rightup.png"
-console.log(left)
+import rightup from "./image/Rightup.png";
+import Navbar from "./HomePage/Navbar/navbar";
+import TopNavbar from "./HomePage/TopNavbar/TopNavbar";
+import Footers from "./HomePage/footersecond/footers";
+
+
 const Series_singlematch = ({ runner, wicketer }) => {
   const articles = useSelector((state) => state.articles);
   console.log(articles);
@@ -21,10 +25,14 @@ const Series_singlematch = ({ runner, wicketer }) => {
   }, []);
   return (
     <div>
+      <TopNavbar/>
+      <Navbar/>
+      <center>
       <img
         src="https://tpc.googlesyndication.com/simgad/9473507432203609842?"
         style={{ margin: "5%" }}
       />
+      </center>
       <div style={{ display: "flex", gap: "25px", width: "100%" }}>
         <div style={{ width: "25%", height: "50px" }}>
           
@@ -72,6 +80,7 @@ const Series_singlematch = ({ runner, wicketer }) => {
           </div>
         </div>
       </div>
+      <Footers/>
     </div>
   );
 };

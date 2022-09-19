@@ -8,10 +8,12 @@ import SeriesBlogs from "./SeriesBlog";
 import SeriesBlog from "./SeriesBlog";
 import Navbar from "./HomePage/Navbar/navbar";
 import Footers from "./HomePage/footersecond/footers";
+import TopNavbar from "./HomePage/TopNavbar/TopNavbar";
 
 const Series = () => {
   return (
     <div className={styles.container}>
+      <TopNavbar/>
       <Navbar/>
 
       <Heading as="h2" size="md" noOfLines={1} className={styles.heading}>
@@ -19,18 +21,13 @@ const Series = () => {
       </Heading>
       
       <Box className={styles.outerbox}>
-      <img src="https://tpc.googlesyndication.com/daca_images/simgad/532420073875604930"  style={{paddingLeft:"125px" , paddingTop:"20px"}}/>
-        <img style={{marginLeft:"78%" , width:"20%", marginTop:"20px" ,}} src="https://tpc.googlesyndication.com/simgad/10028855014806727821?" alt="" />
+        <img src="https://tpc.googlesyndication.com/daca_images/simgad/532420073875604930" width='93%'  style={{paddingLeft:"70px" , paddingTop:"20px",paddingBottom:"-100px"}}/>
+        <img style={{marginLeft:"78%" , width:"20%", marginTop:"20px" }} src="https://tpc.googlesyndication.com/simgad/10028855014806727821?" alt="" />
         <div className={styles.blogbox}>
-          <img src="https://tpc.googlesyndication.com/simgad/11639078905771269026?" />
-          
-          
-          <SeriesBlog />
-          
+          <SeriesBlog /> 
         </div>
-        <img style={{marginLeft:"78%" , width:"20%", marginTop:"20px" ,}} src="https://tpc.googlesyndication.com/simgad/7878157276616870270?" />
-        <Box className={styles.heading2} style={{marginTop:"-920px"}}>
         
+        <Box className={styles.heading2} >
           <Text fontSize="md"><NavLink to="/Series" style={({ isActive }) => ({ 
                             color: isActive ? 'blue' : 'black' })}>Current Cricket</NavLink></Text>
           <div className={styles.vertical}></div>
@@ -45,23 +42,23 @@ const Series = () => {
           <Box>
             <Text fontSize="lg" fontWeight="bold" style={{marginBottom:"15px"}}>INTERNATIONAL TOURS</Text>
             <div style={{lineHeight:"10px"}}>
-            <h5><NavLink to="/Series_singlematch">England v South Africa</NavLink> </h5>
-            <h5>Zimbabwe v India</h5>
-            <h5>West Indies v New Zealand</h5>
-            <h5>Netherlands v Pakistan</h5>
-            <h5>Australia v Zimbabwe</h5>
-            <h5>BAN-A in West Indies</h5>
-            <h5>SL U-19s in ENG</h5>
-            <h5>IRE-W in NL</h5>
+            <h4><NavLink style={{textDecoration:"none"}} to="/Series_singlematch">England v South Africa</NavLink> </h4>
+            <h4>Zimbabwe v India</h4>
+            <h4>West Indies v New Zealand</h4>
+            <h4>Netherlands v Pakistan</h4>
+            <h4>Australia v Zimbabwe</h4>
+            <h4>BAN-A in West Indies</h4>
+            <h4>SL U-19s in ENG</h4>
+            <h4>IRE-W in NL</h4>
             </div>
             
 
             <Text fontSize="lg" fontWeight="bold" style={{marginTop:'35px' , marginBottom:"15px"}}>INTERNATIONAL TOURNAMENTS</Text>
             <div style={{lineHeight:"10px"}}>
-            <h5>Asia Cup Qualifier</h5>
-            <h5>Asia Cup 2022</h5>
-            <h5>CWC Challenge Group A</h5>
-            <h5>CWC Challenge Group B</h5>
+            <h4>Asia Cup Qualifier</h4>
+            <h4>Asia Cup 2022</h4>
+            <h4>CWC Challenge Group A</h4>
+            <h4>CWC Challenge Group B</h4>
             
             </div>
             <ArrowDownIcon style={{marginTop:"1100px"}} />
@@ -70,40 +67,40 @@ const Series = () => {
           <Box style={{marginLeft:"-90px"}}>
             <Text fontSize="lg" fontWeight="bold" style={{marginBottom:"15px"}}>ICC TOURNAMENTS</Text>
             <div style={{lineHeight:"10px"}}>
-            <h5>ICC Women's Championship</h5>
-            <h5>Men's Cricket World Cup League 2</h5>
-            <h5>CWC Challenge League Group A</h5>
-            <h5>CWC Challenge League Group B</h5>
-            <h5>ICC CWC Super League</h5>
-            <h5>ICC World Test Championship</h5>
+            <h4>ICC Women's Championship</h4>
+            <h4>Men's Cricket World Cup League 2</h4>
+            <h4>CWC Challenge League Group A</h4>
+            <h4>CWC Challenge League Group B</h4>
+            <h4>ICC CWC Super League</h4>
+            <h4>ICC World Test Championship</h4>
             </div>
 
             <Text fontSize="lg" fontWeight="bold" style={{marginTop:'35px' , marginBottom:"15px"}}>T20/T10 TOURNAMENTS</Text>
             <div style={{lineHeight:"15px"}}>
-            <h5>Asia Cup 2022</h5>
-            <h5>SLC T20</h5>
-            <h5>Maharaja T20</h5>
-            <h5>6IXTY (W)</h5>
-            <h5>6IXTY (M)</h5>
-            <h5>T20 QUAD (in UAE)</h5>
-            <h5>Namibia T20</h5>
+            <h4>Asia Cup 2022</h4>
+            <h4>SLC T20</h4>
+            <h4>Maharaja T20</h4>
+            <h4>6IXTY (W)</h4>
+            <h4>6IXTY (M)</h4>
+            <h4>T20 QUAD (in UAE)</h4>
+            <h4>Namibia T20</h4>
             </div>
 
             <Text fontSize="lg" fontWeight="bold" style={{marginTop:'35px' , marginBottom:"15px"}}>ASSOCIATE CRICKET</Text>
             <div style={{lineHeight:"10px"}}>
-            <h5>Kenya v Nepal</h5>
-            <h5>Bahrain v Kuwait</h5>
-            <h5>ITA-W in Austria</h5>
-            <h5>Continental Cup</h5>
+            <h4>Kenya v Nepal</h4>
+            <h4>Bahrain v Kuwait</h4>
+            <h4>ITA-W in Austria</h4>
+            <h4>Continental Cup</h4>
             
             </div>
             <Text fontSize="lg" fontWeight="bold" style={{marginTop:'35px' , marginBottom:"15px"}}>AUSTRALIA DOMESTIC</Text>
             <div style={{lineHeight:"10px"}}>
-            <h5>Sheffield Shield</h5>
-            <h5>The Marsh Cup</h5>
-            <h5>BBL 2022</h5>
-            <h5>WBBL 2022</h5>
-            <h5>WNC League</h5>
+            <h4>Sheffield Shield</h4>
+            <h4>The Marsh Cup</h4>
+            <h4>BBL 2022</h4>
+            <h4>WBBL 2022</h4>
+            <h4>WNC League</h4>
             
             </div>
             <Text fontSize="lg" fontWeight="bold" style={{marginTop:'35px' , marginBottom:"15px"}}>ENGLAND DOMESTIC</Text>
@@ -119,18 +116,18 @@ const Series = () => {
             </div>
             <Text fontSize="lg" fontWeight="bold" style={{marginTop:'35px' , marginBottom:"15px"}}>NEW ZEALAND DOMESTIC</Text>
             <div style={{lineHeight:"10px"}}>
-            <h5>Plunket Shield</h5>
-            <h5>Ford Trophy</h5>
-            <h5>Women's 1-Day</h5>
+            <h4>Plunket Shield</h4>
+            <h4>Ford Trophy</h4>
+            <h4>Women's 1-Day</h4>
             
             
             </div>
             <Text fontSize="lg" fontWeight="bold" style={{marginTop:'35px' , marginBottom:"15px"}}>WEST INDIES DOMESTIC</Text>
             <div style={{lineHeight:"10px"}}>
-            <h5>6IXTY (W)</h5>
-            <h5>6IXTY (M)</h5>
-            <h5>CPL 2022</h5>
-            <h5>WCPL 2022</h5>
+            <h4>6IXTY (W)</h4>
+            <h4>6IXTY (M)</h4>
+            <h4>CPL 2022</h4>
+            <h4>WCPL 2022</h4>
             
             
             </div>

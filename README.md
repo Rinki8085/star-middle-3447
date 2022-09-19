@@ -1,6 +1,6 @@
 # Getting Started with Create React App
+### https://star-middle-3447-espncricinfo-clone.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

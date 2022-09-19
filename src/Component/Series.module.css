@@ -15,7 +15,6 @@ h5{
 }
 .outerbox{
     background-color: whitesmoke;
-    border: 1px solid;
     width: 100%;
     height: auto;
     
@@ -23,10 +22,9 @@ h5{
 .heading2{
     display : flex;
     padding-left: 115px;
-    margin-top: 40px;
+    margin-top: -774px;
     font-family:sans-serif ;
     gap: 70px;
-    
     width: 70%;
 
 }

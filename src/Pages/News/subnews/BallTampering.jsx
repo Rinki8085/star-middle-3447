@@ -4,6 +4,7 @@ import axios from "axios"
 import "../news.css"
 import {Flex,Grid,Stack} from "@chakra-ui/react"
 import { useNavigate } from 'react-router-dom';
+import Navbar from '../../../Component/HomePage/Navbar/navbar';
 const BallTampering=()=>{
   let [data,setdata]=useState([])
   let [mostread,setmostread]=useState([])
@@ -41,6 +42,7 @@ const BallTampering=()=>{
    let navigate=useNavigate()
    return(
    <div className="newsmain" >
+      <Navbar/>
       <Flex justifyContent={"center"} style={{width:"100%",background:"white",height:"56px",marginBottom:"50px"}}>
          <Flex alignItems="center" style={{width:"80%",height:"80%"}}>
             <h1 style={{fontFamily:"BentonSans-Bold,Arial,Noto Sans,sans-serif",fontSize:"14px",fontWeight:"700"}} >News</h1>

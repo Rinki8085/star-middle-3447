@@ -2,6 +2,8 @@ import React ,{useEffect, useState}from 'react'
 import axios from "axios"
 import { Grid,Flex } from '@chakra-ui/react'
 import { useNavigate } from 'react-router-dom'
+import Navbar from '../../../Component/HomePage/Navbar/navbar'
+import Footers from '../../../Component/HomePage/footersecond/footers'
 
 export default function Gallery() {
     let [data,setdata]=useState([])
@@ -14,6 +16,7 @@ export default function Gallery() {
     let navigate=useNavigate()
   return (
     <div style={{width:"100%",backgroundColor:"whitesmoke"}}>
+      <Navbar/>
       <Flex justifyContent={"center"} style={{width:"100%",background:"white",height:"56px",marginBottom:"50px"}}>
          <Flex alignItems="center" style={{width:"80%",height:"80%"}}>
             <h1 style={{fontFamily:"BentonSans-Bold,Arial,Noto Sans,sans-serif",fontSize:"14px",fontWeight:"700"}} >Features</h1>
@@ -39,6 +42,7 @@ export default function Gallery() {
         })
     }
     </Grid>
+    <Footers/>
     </div>
   )
 }

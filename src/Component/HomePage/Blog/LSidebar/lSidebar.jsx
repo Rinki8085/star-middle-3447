@@ -130,10 +130,10 @@ const data5 = [
     return (
       <div className="LSBCONT">
         <div>
-          <img style={{"border-radius": "10px"}} src="https://awesomescreenshot.s3.amazonaws.com/image/2796027/31803381-1705ec820788d46ae1285ca38e6e26c0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220828%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220828T041117Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=1a31bb96004144d5e3db2625c6baa0fa064d1bab585deb1d5d9a7703689d95a2"/>
+          <img width='100%' style={{"border-radius": "10px"}} src="https://i.ibb.co/Y8fj8gg/Screenshot-162.png"/>
         </div>
         <div className="LSBC" style={{}}>
-          <h5>Key Series</h5>
+          <h4>Key Series</h4>
           
           <div>
           {data1.map((item)=>
@@ -145,7 +145,7 @@ const data5 = [
           
         </div>
         <div className="LSBC">
-          <h5>QuickLinks</h5>
+          <h4>QuickLinks</h4>
           <div>
           {data2.map((item)=>
          
@@ -156,7 +156,7 @@ const data5 = [
           
         </div>
         <div className="LSBC">
-          <h5>ESPN Quick Info App</h5>
+          <h4>ESPN Quick Info App</h4>
           <div>
           {data3.map((item)=>
          
@@ -167,7 +167,7 @@ const data5 = [
           
         </div>
         <div className="LSBC">
-          <h5>Follow ESPN cricinfo</h5>
+          <h4>Follow ESPN cricinfo</h4>
           <div>
           {data4.map((item)=>
          
@@ -178,7 +178,7 @@ const data5 = [
           
         </div>
         <div className="LSBC">
-          <h5>ESPN sites</h5>
+          <h4>ESPN sites</h4>
           <div>
           {data5.map((item)=>
          

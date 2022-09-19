@@ -19,10 +19,11 @@ const SeriesBlog = () => {
   };
   return (
     <div className={Styles.main}>
+      <img src="https://tpc.googlesyndication.com/simgad/11639078905771269026?"/>
       <div className={Styles.inner}>
         <Box />
       </div>
-      {data.map((el, index) => (
+      {data?.map((el, index) => (
         <div className={Styles.inner} key={index}>
           <img src={el.urlToImage} alt="article_image" />
           <p>{el.description}</p>
