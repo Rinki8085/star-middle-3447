@@ -1,70 +1,75 @@
+
 # Getting Started with Create React App
 ### https://star-middle-3447-espncricinfo-clone.netlify.app/
 
+=======
+## espnCricinfo Clone
 
-## Available Scripts
+espnCricinfo is website where you can get update of live matches, upcoming matches and also the past matches. 
 
-In the project directory, you can run:
+### Link to our project website
+[star-middle-3447-esnpCrincinfo](https://star-middle-3447-espncricinfo-clone.netlify.app/)
 
-### `npm start`
+### About this project:🙌
+ESPNcricinfo is the world's leading cricket website and among the top five single-sport websites in the world. ESPNcricinfo's content includes news, live ball-by-ball coverage of all Test and one-day international matches and features written by some of the world's best cricketers and cricket writers.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-------------------------------------------------------------------------
 
-### `npm test`
+### Project Demo
+- [Checkout The Live Project Demo](https://star-middle-3447-espncricinfo-clone.netlify.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Out Team Members ❤️:
 
-### `npm run build`
+- [Rinki](https://github.com/Rinki8085)
+- [Sameer Harankhedkar](https://github.com/sameerah2710)
+- [Bipin Mishra](https://github.com/bpn1604)
+- [Govind Mishra](https://github.com/gov6184)
+- [Abhishek Mardiya](https://github.com/abhishekmardiya)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+--------------------------------------------------------------------------
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Pages & Features 👇: 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-  `Homepage` - Details about Live matches
+-  `Live Scores Page` - Here you can get update about live data of any match
+-  `Series Page` - everytype of series match you can find and also the details of that match
+-  `Team Page` - same as series, this is for team of any country, women's team and IPL team
+-  `News Page` - Latest News and blogs
+-  `Features Page` - this page consist of features, writers and photo gallery  
 
-### `npm run eject`
+### Tech Stack used 🔧:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`ReactJS`
+`React Redux`
+`Chakra-UI`
+`JSON-server`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+--------------------------------
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Homepage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-------------------------
+![Screenshot (154)](https://user-images.githubusercontent.com/86877385/187080743-5ad42786-bd99-45e1-841d-95ef0ac04994.png)
 
-## Learn More
+### Live Scores page
+-------------------------------
+![Screenshot (155)](https://user-images.githubusercontent.com/86877385/187080808-610e18f6-6f1e-4fba-bc96-199b8cfa4455.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Series Page
+------------------------------------
+![Screenshot (157)](https://user-images.githubusercontent.com/86877385/187080855-8e64077a-6bdc-42de-921f-efb498de5a81.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Teams Page
+---------------------------------------
+![Screenshot (156)](https://user-images.githubusercontent.com/86877385/187080878-a3f70472-78a3-4ea6-80da-0231208769b2.png)
 
-### Code Splitting
+### News Page
+------------------------------------
+![Screenshot (159)](https://user-images.githubusercontent.com/86877385/187080914-537c1a26-dbcb-4eb1-9d8b-ab4a7a0eaa65.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Photo Gallery
+---------------------------------------
+![Screenshot (160)](https://user-images.githubusercontent.com/86877385/187080920-e3883803-d92f-4a7a-8774-be1f2eefef41.png)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
