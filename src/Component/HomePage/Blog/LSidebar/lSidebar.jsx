@@ -129,9 +129,7 @@ const data5 = [
 
     return (
       <div className="LSBCONT">
-        <div>
-          <img width='100%' style={{"border-radius": "10px"}} src="https://i.ibb.co/Y8fj8gg/Screenshot-162.png"/>
-        </div>
+        
         <div className="LSBC" style={{}}>
           <h4>Key Series</h4>
           
